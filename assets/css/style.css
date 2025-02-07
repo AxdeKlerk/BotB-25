@@ -66,3 +66,11 @@ p {
   .navbar a:hover {
     color: #B9D2C9 !important;
   }
+
+/*About page*/
+.about p {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    text-align: center;
+}
