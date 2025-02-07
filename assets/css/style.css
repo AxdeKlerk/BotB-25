@@ -38,7 +38,7 @@ p {
 }
 .hero h1 {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: red;
@@ -48,7 +48,7 @@ p {
 }
 .hero h4 {
     position: absolute;
-    top: 60%;
+    top: 55%;
     color: #B9D2C9;
     font-size: 1.5em;
     text-align: center;
@@ -58,8 +58,10 @@ p {
 
 /*Nav bar styling*/
 .navbar-brand {
-    color: #B9D2C9 !important;
-    hover: none;
+    color: red !important;
+}
+.navbar-brand:hover {
+    display: none;
 }
 .navbar {
     margin-top: 1%;
@@ -68,11 +70,11 @@ p {
 }
 .navbar a {
     color: #B9D2C9 !important;
-  }
+}
   
-  .navbar a:hover {
+.navbar a:hover {
     color: red !important;
-  }
+}
 
 /*About page*/
 .about p {
