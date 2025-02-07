@@ -14,6 +14,10 @@ h2 {
     color: red;
     text-align: center;
 }
+h3 {
+    color: #B9D2C9;
+    text-align: center;
+}
 p {
     text-align: center;
     height: 12px; 
@@ -69,8 +73,9 @@ p {
 
 /*About page*/
 .about p {
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+    margin-left: 2.5%;
     text-align: center;
+    font-size: 1.1em;
 }
