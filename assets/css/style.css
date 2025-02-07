@@ -1,6 +1,26 @@
 /*Google fonts import code*/
 
+/** Global settings**/
 body {
     background-color: black;
-    color: white;
+    color: #F5EBDB;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
+h2 {
+    color: red;
+}
+
+/*Nav bar styling*/
+.navbar {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: darkgrey;
+}
+.navbar a {
+    color: #ff4d4d !important;
+  }
+  
+  .navbar a:hover {
+    color: #B9D2C9 !important;
+  }
