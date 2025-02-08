@@ -5,7 +5,6 @@ body {
     background-color: black;
     color: #F5EBDB;
     margin-left: 2.5%;
-    margin-right: 2.5%;
 }
 h1 {
     text-align: center;
@@ -38,30 +37,21 @@ p {
 }
 .hero h1 {
     position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 75%;
+    margin-left: 2.5%;
     color: red;
-    font-size: 3em;
+    font-size: 14px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-.hero h4 {
-    position: absolute;
-    top: 55%;
-    color: #B9D2C9;
-    font-size: 1.5em;
-    text-align: center;
-    padding: 10px 20px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+
 /*Nav bar styling*/
 .navbar-brand {
-    color: red !important;
+    color: #B9D2C9 !important;
 }
 .navbar-brand:hover {
-    display: none;
+    color: red !important;
 }
 .navbar {
     margin-top: 1%;
@@ -77,9 +67,17 @@ p {
 }
 
 /*About page*/
-.about p {
-    margin-top: 2.5%;
-    margin-bottom: 5%;
-    margin-left: 2.5%;
+.about {
+    height: auto;
+}
+.about-p {
     text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.about-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 0.6;
 }
