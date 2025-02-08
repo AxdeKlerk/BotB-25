@@ -20,7 +20,7 @@ h3 {
     text-align: center;
 }
 p {
-   font-size: 12px;
+   font-size: 14px;
 }
 
 /*Nav bar styling*/
@@ -66,6 +66,7 @@ p {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
 }
+/*Buttons*/
 .btn-primary {
     background-color: red;
     border: 15px;
@@ -84,7 +85,7 @@ p {
     color: red;
 }
 
-/*About page*/
+/*About section*/
 .about {
     margin-top: 2.5%;
     margin-bottom: 2.5%;
@@ -92,16 +93,16 @@ p {
     height: auto;
     overflow: hidden;
 }
+.about-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: auto;
+}
 .about-text {
     text-align: justify;
     margin-top: 2.5%;
     width: 100%;
     height: auto;
     line-height: 1.3;
-}
-.about-img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    margin: auto;
 }
