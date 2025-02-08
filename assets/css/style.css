@@ -19,9 +19,6 @@ h3 {
     color: #B9D2C9;
     text-align: center;
 }
-p {
-   font-size: 14px;
-}
 
 /*Nav bar styling*/
 .navbar-brand {
@@ -100,6 +97,7 @@ p {
     margin: auto;
 }
 .about-text {
+    font-size: 14px;
     text-align: justify;
     margin-top: 2.5%;
     width: 100%;
