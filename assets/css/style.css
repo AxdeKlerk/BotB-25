@@ -112,17 +112,9 @@ h3 {
 /*How it works? section*/
 .modal-header {
     background-color: black;
-    color: #F5EBDB;
-    font-size: 14px;
-    text-align: center;
-    line-height: 1.3;
 }
 .modal-content {
     background-color: black;
-    color: #F5EBDB;
-    font-size: 14px;
-    text-align: center;
-    line-height: 1.3;
 }
 .modal-body {
     background-color: black;
@@ -130,7 +122,10 @@ h3 {
     margin-bottom: 2.5%;
     width: 100%;
     height: auto;
-    font-size: 14px;
+    font-size: 12px;
     text-align: left;
-    line-height: 1.3;
+    line-height: 1.7;
+}
+.modal-footer {
+    background-color: black;
 }
