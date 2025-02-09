@@ -133,3 +133,28 @@ h3 {
 .modal-footer {
     background-color: black;
 }
+
+/*Battle Page*/
+.battle {
+    margin-top: 3.5%;
+    margin-bottom: 2.5%;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.battle-img {
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.battle-text {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 2.5%;
+    width: 100%;
+    height: auto;
+    line-height: 1.3;
+}
