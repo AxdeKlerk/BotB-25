@@ -64,10 +64,10 @@ h3 {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 /*Buttons*/
 .btn-primary {
-    background-color: red;
-    border: 15px;
+    background-color: black;
     color: #F5EBDB;
     padding: 10px 20px;
     text-align: center;
@@ -79,9 +79,12 @@ h3 {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-.btn-primary:hover {
-    background-color: #F5EBDB;
-    color: red;
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: red;
+    border-block-width: 5px;
 }
 
 /*About section*/
