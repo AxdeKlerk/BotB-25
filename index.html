@@ -45,7 +45,8 @@
           <a class="btn btn-primary mx-auto d-block" href="play.html" role="button">Play!</a>
         </div>
         <div class="col-4">
-          <a class="btn btn-primary mx-auto d-block" href="how.html" role="button">How?</a>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#howToPlay">How?</button>
         </div>
         <div class="col-4">
           <a class="btn btn-primary mx-auto d-block" href="#about" role="button">What?</a>
@@ -84,7 +85,33 @@
           </div>
         </div>
       </div>
-  </section>
+    </section>
+  
+    <!-- How to play? Modal-->
+    <div class="modal fade" id="howToPlay" tabindex="-1" aria-labelledby="howToPlayLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="howToPlayLabel">💥 How it works:</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>🎸🥁🎤🎹🎸<br>
+               1️⃣ Hit Play! and 12 bands will be summoned at random from an arsenal of all the bands performing at an independent festival in 2025. <br>
+               2️⃣ Vote for your top band in each of the 3 epic heats. <br>
+               3️⃣ Choose one finalist to forward your choice and it could just be the next big thing! <br>
+               4️⃣ Need to reset or go home? Just click on the title in the top left corner: "ERB BotBs 2025".</p>
+                 
+            <p>No festival crowds, no dodging flying pints! Just pure music discovered from the comfort of your screen. Will you find your next favorite band? Only one way to find out. . . </p>      
+            <p>🔥 <strong>Hit Play! & let the battle begin!</strong> 🔥</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            <button type="button" id="play" class="btn btn-primary">Play!</button>
+          </div>
+        </div>
+      </div>
+    </div> 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
