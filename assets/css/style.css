@@ -169,9 +169,10 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black
 }
 .card img {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 .card h1 {
     position: absolute;
@@ -179,7 +180,14 @@ h3 {
     margin-left: 5%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 16px;
     width: 50%;
+    height: auto;
+}
+.card-body {
+    background-color: black;
+    color: #F5EBDB;
+    text-align: left;
+    margin-top: 2.5%;
+    width: 100%;
     height: auto;
 }
