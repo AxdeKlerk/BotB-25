@@ -155,7 +155,7 @@ h3 {
     align-items: center;
     background-color: darkgray;
     border-radius: 0 !important;
-    border: 0;
+    border: 0px;
 }
 .card img {
     opacity: 0.6;
