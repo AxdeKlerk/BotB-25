@@ -40,9 +40,8 @@ h3 {
     color: red !important;
 }
 
-/*Home page*/
 /*Hero section*/
-.hero img {
+.hero-img {
     position: relative;
     width: 100%;
     height: auto;
@@ -54,13 +53,6 @@ h3 {
     border-radius: 50%;
     padding: 5px;
     background-color:red;
-}
-.hero h1 {
-    position: relative;
-    top: 50%;
-    margin-left: 2.5%;
-    font-size: 1.5rem;
-    text-align: center;
 }
 
 /*Buttons*/
@@ -95,14 +87,11 @@ h3 {
     overflow: hidden;
 }
 .about-img {
-    position: relative;
     width: 100%;
     height: auto;
     object-fit: cover;
     margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+
 }
 .about-text {
     font-size: 14px;
@@ -153,7 +142,7 @@ h3 {
     padding: 5px;
     background-color:red;
 }
-.battle h1 {
+.battle.h1 {
     color: #F5EBDB;
 }
 
@@ -168,10 +157,13 @@ h3 {
     justify-content: center;
     align-items: center;
     background-color: darkgray;
+    border-radius: 0 !important;
     border: 0;
 }
 .card img {
     opacity: 0.6;
+    overflow: hidden;
+    border-radius: 0 !important;
 }
 .card h1 {
     position: absolute;
