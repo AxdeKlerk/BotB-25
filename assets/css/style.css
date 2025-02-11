@@ -91,7 +91,6 @@ h3 {
     height: auto;
     object-fit: cover;
     margin: auto;
-
 }
 .about-text {
     font-size: 14px;
@@ -125,7 +124,6 @@ h3 {
 
 /*Battle Page*/
 .battle {
-    display: flex;
     margin-top: 3.5%;
     margin-bottom: 2.5%;
     width: 100%;
@@ -133,9 +131,9 @@ h3 {
     overflow: hidden;
 }
 .battle-img {
-    position: relative;
     width: 100%;
     height: auto;
+    object-fit: cover;
     margin: auto;
     opacity: 0.7;
     overflow: hidden;
