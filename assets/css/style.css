@@ -1,7 +1,6 @@
 /*Google fonts import code*/
 @import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
 
-
 /** Global settings**/
 body {
     background-color: black;
@@ -55,7 +54,7 @@ h3 {
     overflow: hidden;
     margin-bottom: 5%;
     border-radius: 50%;
-    padding: 5px;
+    padding: 0.6rem;
     background-color:red;
 }
 
@@ -198,53 +197,90 @@ h3 {
 @media screen and (max-width: 320px) {
 
 }
-/*2 Extra small mobile devices (small phones, 320px and above)*/
-@media screen and (min-width: 320px) {
-
-}
-/*3 Small mobile devices (phones, 360px and above)*/
+/*2 Small mobile devices (phones, 360px and above)*/
 @media screen and (min-width: 360px) {
-
+    .hero-img {
+        padding: 0.8rem;
+        margin-bottom: 2%;  
+    }
 }
-/*4 Small devices (portrait tablets and large phones, 576px and up)*/
+/*3 Small devices (portrait tablets and large phones, 576px and up)*/
 @media screen and (min-width: 576px) {
-
+    .hero-img {
+        padding: 0.9rem;
+        margin-bottom: 2%;  
+    }
 }
-/*5 Medium devices (landscape tablets, 768px and up)*/
+/*4 Medium devices (landscape tablets, 768px and up)*/
 @media screen and (min-width: 768px) {
 .btn-primary {
     font-size: 1.2rem;
-}
-}
-/*6 Large devices (laptops/desktops, 992px and up)*/
-@media screen and (min-width: 992px) {
-    body {
-        font-size: 1rem;
     }
     .hero-img {
-        width: 60%;
-        height: auto;
+        padding: 1rem;
+        margin-bottom: 2%;  
+    }
+}
+/*5 Large devices (laptops/desktops, 992px and up)*/
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 0.9rem;
+    }
+    .hero-img {
+        padding: 1.1rem;
+        margin-bottom: 2%;  
+    }
+    .about-img {
+        width: 80%;
+        display: block;
         margin: auto;
     }
 }
-/*7 Extra large devices (large laptops and desktops, 1200px and up)*/
+/*6 Extra large devices (large laptops and desktops, 1200px and up)*/
 @media screen and (min-width: 1200px) {
     body {
-        font-size: 1.2rem;
+        font-size: 1rem;
+    }
+    .btn-primary {
+        font-size: 1.5rem;
+    }
+    .hero-img {
+        padding: 1.2rem;
+        margin-bottom: 2%;  
     }
 }
-/*8 Extra extra large devices (extra large laptops and desktops, 1400px and up)*/
+/*7 Extra extra large devices (extra large laptops and desktops, 1400px and up)*/
 @media screen and (min-width: 1400px) {
     body {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
     .btn-primary {
         font-size: 1.8rem;
     }
+    .hero-img {
+        padding: 1.2rem;
+        margin-bottom: 2%;  
+    }
 }
-/*9 Extra extra extra large devices (extra large laptops and desktops, 1600px and up)*/
+/*8 Extra extra extra large devices (extra large laptops and desktops, 1600px and up)*/
 @media screen and (min-width: 1600px) {
     body {
-        font-size: 2.1rem;
+        font-size: 1.8rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    .btn-primary {
+        font-size: 2rem;
+    }
+    .hero-img {
+        width: 80%;
+        height: auto;
+        margin: auto;
+        padding: 1.5rem;
+        margin-bottom: 3%;
     }
 }
