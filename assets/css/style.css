@@ -46,7 +46,7 @@ h3 {
 /*Hero section*/
 .hero-img {
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: auto;
     object-fit: cover;
     margin: auto;
@@ -141,7 +141,7 @@ h3 {
     overflow: hidden;
 }
 .battle-img {
-    width: 100%;
+    width: 90vw;
     height: auto;
     object-fit: cover;
     margin: auto;
@@ -201,14 +201,12 @@ h3 {
 @media screen and (min-width: 360px) {
     .hero-img {
         padding: 0.8rem;
-        margin-bottom: 2%;  
     }
 }
 /*3 Small devices (portrait tablets and large phones, 576px and up)*/
 @media screen and (min-width: 576px) {
     .hero-img {
         padding: 0.9rem;
-        margin-bottom: 2%;  
     }
 }
 /*4 Medium devices (landscape tablets, 768px and up)*/
@@ -218,7 +216,6 @@ h3 {
     }
     .hero-img {
         padding: 1rem;
-        margin-bottom: 2%;  
     }
 }
 /*5 Large devices (laptops/desktops, 992px and up)*/
@@ -228,10 +225,9 @@ h3 {
     }
     .hero-img {
         padding: 1.1rem;
-        margin-bottom: 2%;  
     }
     .about-img {
-        width: 80%;
+        width: 90%;
         display: block;
         margin: auto;
     }
@@ -246,20 +242,25 @@ h3 {
     }
     .hero-img {
         padding: 1.2rem;
-        margin-bottom: 2%;  
     }
+
 }
 /*7 Extra extra large devices (extra large laptops and desktops, 1400px and up)*/
 @media screen and (min-width: 1400px) {
     body {
         font-size: 1.3rem;
     }
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
     .btn-primary {
         font-size: 1.8rem;
     }
     .hero-img {
         padding: 1.2rem;
-        margin-bottom: 2%;  
     }
 }
 /*8 Extra extra extra large devices (extra large laptops and desktops, 1600px and up)*/
@@ -277,7 +278,7 @@ h3 {
         font-size: 2rem;
     }
     .hero-img {
-        width: 80%;
+        width: 80vw;
         height: auto;
         margin: auto;
         padding: 1.5rem;
