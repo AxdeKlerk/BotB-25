@@ -192,3 +192,36 @@ img {
     width: 100%;
     height: auto;
 }
+
+/*Media Queries*/
+
+/*1 Extra extra small mobile devices (small phones, 320px and below)*/
+@media screen and (max-width: 320px) {
+
+}
+/*2 Extra small mobile devices (small phones, 320px and above)*/
+@media screen and (min-width: 320px) {
+
+}
+/*3 Small mobile devices (phones, 360px and above)*/
+@media screen and (min-width: 360px) {
+
+}
+/*4 Small devices (portrait tablets and large phones, 576px and up)*/
+@media screen and (min-width: 576px) {
+
+}
+/*5 Medium devices (landscape tablets, 768px and up)*/
+@media screen and (min-width: 768px) {
+
+}
+/*6 Large devices (laptops/desktops, 992px and up)*/
+@media screen and (min-width: 992px) {
+
+}
+/*7 Extra large devices (large laptops and desktops, 1200px and up)*/
+@media screen and (min-width: 1200px) {
+
+}
+/*8 Extra extra large devices (large laptops and desktops, 1200px and up)*/ 
+@media screen and (min-width: 1200px)
