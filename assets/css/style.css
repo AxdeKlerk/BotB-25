@@ -7,6 +7,7 @@ body {
     background-color: black;
     font-family: "Geist Mono", monospace;
     color: #F5EBDB;
+    font-size: 12px;
     margin-left: 2.5%;
     margin-right: 2.5%;
     height: 100vh;
@@ -101,7 +102,6 @@ h3 {
     margin: auto;
 }
 .about-text {
-    font-size: 14px;
     text-align: justify;
     margin-top: 2.5%;
     width: 100%;
@@ -218,15 +218,33 @@ h3 {
 }
 /*6 Large devices (laptops/desktops, 992px and up)*/
 @media screen and (min-width: 992px) {
-
+    body {
+        font-size: 1rem;
+    }
+    .hero-img {
+        width: 60%;
+        height: auto;
+        margin: auto;
+    }
 }
 /*7 Extra large devices (large laptops and desktops, 1200px and up)*/
 @media screen and (min-width: 1200px) {
-
+    body {
+        font-size: 1.2rem;
+    }
 }
 /*8 Extra extra large devices (extra large laptops and desktops, 1400px and up)*/
 @media screen and (min-width: 1400px) {
+    body {
+        font-size: 1.4rem;
+    }
     .btn-primary {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
+    }
+}
+/*9 Extra extra extra large devices (extra large laptops and desktops, 1600px and up)*/
+@media screen and (min-width: 1600px) {
+    body {
+        font-size: 2.1rem;
     }
 }
