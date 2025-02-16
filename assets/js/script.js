@@ -1,7 +1,7 @@
 //Launches the How modal
-document.getElementById("playBtn").addEventListener("click", function() {
-    window.location.href = "play.html";
-});
+//document.getElementById("playBtn").addEventListener("click", function() {
+    //window.location.href = "play.html";
+//});
 // Stops the default behavior of the play button removing the blue background when clicked
 document.querySelectorAll(".btn-play").forEach(button => {
     button.addEventListener("click", function(event) {
@@ -323,15 +323,13 @@ const bandData = [
 
 //Function to get 4 randomly selected bands form the above array
 document.getElementById("goButton").addEventListener("click", function () {
-    const selectedBands = getRandomBands(bandData, 4);
-    displayBands(selectedBands);
+    const selectedBands = getRandomBands(bandData, 4); // Select 4 random bands
+    console.log(selectedBands); // Log the selected bands
 });
 
-function getRandomBands(bands, numBands) {
+function getRandomBands(bands, count) {
     let shuffled = [...bands].sort(() => 0.5 - Math.random()); // Shuffle array
-    return shuffled.slice(0, numBands); // Get the first 'count' elements
+    return shuffled.slice(0, count); // Get the first 'count' elements
 };
 
-let selectedBands = getRandomBands(bandData, 4); // Select 4 random bands
-console.log(selectedBands); // Log the selected bands
 
