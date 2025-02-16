@@ -140,15 +140,33 @@ h3 {
     height: auto;
     overflow: hidden;
 }
+.battle-img-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 1400px;
+}
+
 .battle-img {
-    width: 90vw;
+    width: 100vw;
     height: auto;
-    object-fit: cover;
-    margin: auto;
-    opacity: 0.7;
-    overflow: hidden;
-    padding: 5px;
-    background-color:red;
+    display: block;
+    padding: 0.6rem;
+    background-color: red;
+}
+
+.img-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: red;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-align: center;
+    width: 80%;
+    max-width: 300px;
 }
 
 /*Card styling*/
