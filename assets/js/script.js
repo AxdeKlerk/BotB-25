@@ -3,10 +3,10 @@ document.getElementById("playBtn").addEventListener("click", function() {
     window.location.href = "play.html";
 });
 
-// Stops the default behavior of the play button
+// Stops the default behavior of the play button removing the blue background when clicked
 document.querySelectorAll(".btn-play").forEach(button => {
     button.addEventListener("click", function(event) {
-        event.preventDefault(); // Stops default behavior
+        event.preventDefault();
     });
 });
 
