@@ -329,12 +329,12 @@ function getRandomBands(bands, count) {
 };
 
 function populateCards (bands) {
-    const cardElements = document.querySelectorAll (".cards"); //Gets all card elements
-    bands.forEach ((band, index) => {
+    const cardElements = document.querySelectorAll(".cards"); //Gets all card elements
+    bands.forEach ((bandData, index) => {
         if (cardElements [index]) {
-            cardElements [index].querySelector (".card-title").textContent = bandData.bandName; //Updates band name
-            cardElements [index].querySelector (".song-title").textContent = bandData.songTitle; // Uodates son title
-            cardElements [index].querySelector (".origin").textContent = bandData.bandOrigin; // Uodates band origin
+            cardElements [index].querySelector(".card-title").textContent = bandData.bandName; //Updates band name
+            cardElements [index].querySelector(".song-title").textContent = bandData.songTitle; // Uodates son title
+            cardElements [index].querySelector(".origin").textContent = bandData.bandOrigin; // Uodates band origin
         }
     })
 };
