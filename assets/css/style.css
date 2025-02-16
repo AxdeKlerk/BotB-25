@@ -174,15 +174,6 @@ h3 {
     overflow: hidden;
     border-radius: 0 !important;
 }
-.card h1 {
-    position: absolute;
-    top: 30%;
-    margin: auto;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 50%;
-    height: auto;
-}
 .card-body {
     background-color: black;
     color: #F5EBDB;
