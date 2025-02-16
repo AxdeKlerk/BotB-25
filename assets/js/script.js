@@ -320,12 +320,23 @@ const bandData = [
 //Function to get 4 randomly selected bands form the above array
 document.getElementById("goButton").addEventListener("click", function () {
     const selectedBands = getRandomBands(bandData, 4); // Select 4 random bands
-    console.log(selectedBands); // Log the selected bands
+    populateCards (selectedBands); // Update existing Bootstrap cards
 });
 
 function getRandomBands(bands, count) {
     let shuffled = [...bands].sort(() => 0.5 - Math.random()); // Shuffle array
     return shuffled.slice(0, count); // Get the first 'count' elements
 };
+
+function populateCards (bands) {
+    const cardElements = document.querySelectorAll (".cards"); //Gets all card elements
+    bands.forEach ((band, index) => {
+        if (cardElements [index]) {
+            cardElements [index].querySelector (".card-title").textContent = band.bandName; //Updates band name
+            cardElements [index].querySelector (".song-title").textContent = band.songTitle; // Uodates son title
+            cardElements [index].querySelector (".origin").textContent = band.origin; // Uodates band origin
+        }
+    })
+}
 
 
