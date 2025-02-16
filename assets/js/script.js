@@ -332,9 +332,9 @@ function populateCards (bands) {
     const cardElements = document.querySelectorAll (".cards"); //Gets all card elements
     bands.forEach ((band, index) => {
         if (cardElements [index]) {
-            cardElements [index].querySelector (".card-title").textContent = band.bandName; //Updates band name
-            cardElements [index].querySelector (".song-title").textContent = band.songTitle; // Uodates son title
-            cardElements [index].querySelector (".origin").textContent = band.origin; // Uodates band origin
+            cardElements [index].querySelector (".card-title").textContent = bandData.bandName; //Updates band name
+            cardElements [index].querySelector (".song-title").textContent = bandData.songTitle; // Uodates son title
+            cardElements [index].querySelector (".origin").textContent = bandData.origin; // Uodates band origin
         }
     })
 }
