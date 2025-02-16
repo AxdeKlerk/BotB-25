@@ -318,8 +318,12 @@ const bandData = [
 ];
 
 //Function to get 4 randomly selected bands form the above array
-document.getElementById("goButton").addEventListener("click", function () {
+document.getElementById("go").addEventListener("click", function () {
+    console.log("Button Clicked!"); // Debugging step
+    
     const selectedBands = getRandomBands(bandData, 4); // Select 4 random bands
+    console.log("Selected Bands:", selectedBands); // Debugging step
+    
     populateCards (selectedBands); // Update existing Bootstrap cards
 });
 
@@ -330,11 +334,21 @@ function getRandomBands(bands, count) {
 
 function populateCards (bands) {
     const cardElements = document.querySelectorAll(".card"); //Gets all card elements
+    console.log("Total Cards Found:", cardElements.length); // Debugging step
+
     bands.forEach ((bandData, index) => {
         if (cardElements [index]) {
-            cardElements [index].querySelector(".card-title").textContent = bandData.bandName; //Updates band name
-            cardElements [index].querySelector(".song-title").textContent = bandData.songTitle; // Updates son title
-            cardElements [index].querySelector(".origin").textContent = bandData.bandOrigin; // Updates band origin
+        console.log(`Updating Card ${index + 1}:`, bandData); // Debugging step
+
+        const titleElement = cardElements[index].querySelector(".card-title");
+        const songElement = cardElements[index].querySelector(".song-title");
+        const originElement = cardElements[index].querySelector(".origin");
+
+        if (titleElement) titleElement.textContent = bandData.bandName; //Updates band name
+        if (songElement) songElement.textContent = bandData.songTitle; // Updates son title
+        if (originElement) originElement.textContent = bandData.bandOrigin; // Updates band origin
+        } else {
+            console.log(`Card ${index + 1} not found!`); // Debugging step
         }
     })
 };
