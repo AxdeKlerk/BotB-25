@@ -334,9 +334,9 @@ function populateCards (bands) {
         if (cardElements [index]) {
             cardElements [index].querySelector (".card-title").textContent = bandData.bandName; //Updates band name
             cardElements [index].querySelector (".song-title").textContent = bandData.songTitle; // Uodates son title
-            cardElements [index].querySelector (".origin").textContent = bandData.origin; // Uodates band origin
+            cardElements [index].querySelector (".origin").textContent = bandData.bandOrigin; // Uodates band origin
         }
     })
-}
+};
 
 
