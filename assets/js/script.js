@@ -327,9 +327,9 @@ document.getElementById("goButton").addEventListener("click", function () {
     displayBands(selectedBands);
 });
 
-function getRandomBands(bands, count) {
+function getRandomBands(bands, numBands) {
     let shuffled = [...bands].sort(() => 0.5 - Math.random()); // Shuffle array
-    return shuffled.slice(0, count); // Get the first 'count' elements
+    return shuffled.slice(0, numBands); // Get the first 'count' elements
 };
 
 let selectedBands = getRandomBands(bandData, 4); // Select 4 random bands
