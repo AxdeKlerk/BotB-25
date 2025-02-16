@@ -181,6 +181,12 @@ h3 {
     width: 100%;
     height: auto;
 }
+.card-title {
+    font-size: 22px;
+}
+.card-text {
+    font-size: 16px;
+}
 
 /*Media Queries*/
 
