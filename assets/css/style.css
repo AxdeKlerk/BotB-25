@@ -163,10 +163,10 @@ h3 {
     background: rgba(0, 0, 0, 0.5);
     color: red;
     padding: 10px 20px;
-    font-size: 1rem;
+    font-size: 14px;
     text-align: center;
     width: 80%;
-    max-width: 300px;
+    max-width: 600px;
 }
 
 /*Card styling*/
@@ -218,13 +218,20 @@ h3 {
     .hero-img {
         padding: 0.8rem;
     }
+    .img-title {
+        font-size: 1.2rem;
+    }
 }
 /*3 Small devices (portrait tablets and large phones, 576px and up)*/
 @media screen and (min-width: 576px) {
     .hero-img {
         padding: 0.9rem;
     }
+    .img-title {
+        font-size: 1.4rem;
+    }
 }
+
 /*4 Medium devices (landscape tablets, 768px and up)*/
 @media screen and (min-width: 768px) {
 .btn-primary {
@@ -232,6 +239,9 @@ h3 {
     }
     .hero-img {
         padding: 1rem;
+    }
+    .img-title {
+        font-size: 1.5rem;
     }
 }
 /*5 Large devices (laptops/desktops, 992px and up)*/
@@ -247,6 +257,9 @@ h3 {
         display: block;
         margin: auto;
     }
+    .img-title {
+        font-size: 1.7rem;
+    }
 }
 /*6 Extra large devices (large laptops and desktops, 1200px and up)*/
 @media screen and (min-width: 1200px) {
@@ -258,6 +271,9 @@ h3 {
     }
     .hero-img {
         padding: 1.2rem;
+    }
+    .img-title {
+        font-size: 1.8rem;
     }
 
 }
@@ -277,6 +293,9 @@ h3 {
     }
     .hero-img {
         padding: 1.2rem;
+    }
+    .img-title {
+        font-size: 1.9rem;
     }
 }
 /*8 Extra extra extra large devices (extra large laptops and desktops, 1600px and up)*/
