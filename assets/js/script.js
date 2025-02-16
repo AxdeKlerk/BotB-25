@@ -84,9 +84,9 @@ const bandData = [
     },
     {
         id: 11,
-        bandName: 'Ashen Reach',
-        songTitle: 'The Dark',
-        bandOrigin: 'Liverpool',
+        bandName: 'Daylight Robbery',
+        songTitle: 'GODZ',
+        bandOrigin: 'Birmingham',
         video: 'https://source.unsplash.com/random/400x300/?rock-band-1',
     },
     {
@@ -94,7 +94,7 @@ const bandData = [
         bandName: 'Ashen Reach',
         songTitle: 'The Dark',
         bandOrigin: 'Liverpool',
-        video: 'https://source.unsplash.com/random/400x300/?rock-band-1',
+        video: '<iframe width="1246" height="701" src="https://www.youtube.com/embed/Obrf7RKKwqo" title="Daylight Robbery - GODZ Official Music Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
         id: 13,
