@@ -32,7 +32,7 @@ Who can play as many times as you like. Just hit GO! again, after you have voted
 ## 6. Features
 
 ## 7. Bugs Resolved and Unresolved
-Possibly, the greatest 'bug' was my own imposter-syndrom
+Possibly, the greatest 'bug' was my own imposter-syndrom. Having completed the course material I was left feeling like there were elements in the course that I did not understand, leaving large gaps in my learning. Following a conversation with my mentor, he suggested that the only way to learn was to tackle the subject matter 'head-on' and just keep practicing. Although, this was extremely good advice I still struggled with self-doubt throughtout this project. In order to over-come this enough to complete the project I joined the Slack Imposter Syndrome group. Although, I didn't contribute much due to feeling like an imposter in the group, it was encouraging to see others struggling and their coping techniques and mechanisms. The greatest piece of advice came from a newsletter I subscribe to by Sahil Bloom where he adopted a technique given to him by his friend to have a Coaching Session With YOurself by using an email-chain with yourself. Here, you  
 
 ## 8. Testing and Deployment
 For the testing and deployment of the site I followed the exact same process I did for project 1, as it seemed to be the most robust way of testing my project as I went along. I intend to use this same process for all my ptojects, both for the course material as well as any future work I undertake - albeit with additional practices as I learn more languages and tools.
