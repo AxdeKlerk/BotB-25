@@ -47,11 +47,11 @@ h3 {
 
 /*Hero section*/
 .hero {
-    padding: 50px 15px; /* Adds space above and below the content */
+    padding: 50px 15px;
   }
   .hero-img {
-    max-width: 100%; /* Ensures image scales within its container */
-    height: auto; /* Keeps aspect ratio */
+    max-width: 80%;
+    height: auto;
     opacity: 0.7;
     border-radius: 50%;
     padding: 0.6rem;
