@@ -101,6 +101,7 @@ h3 {
 .about-img {
     width: 100%;
     height: auto;
+    display: block;
     object-fit: cover;
     margin: auto;
 }
@@ -234,11 +235,6 @@ h3 {
     .hero-img {
         padding: 1.1rem;
     }
-    .about-img {
-        width: 90%;
-        display: block;
-        margin: auto;
-    }
     .img-title {
         font-size: 1.7rem;
     }
@@ -250,6 +246,9 @@ h3 {
     }
     .hero-img {
         padding: 1.2rem;
+    }
+    .about-img {
+        width: 90%;
     }
     .img-title {
         font-size: 1.8rem;
@@ -263,6 +262,9 @@ h3 {
     }
     .hero-img {
         padding: 1.2rem;
+    }
+    .about-img {
+        width: 80%;
     }
     .img-title {
         font-size: 1.9rem;
