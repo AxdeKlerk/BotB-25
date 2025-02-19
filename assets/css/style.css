@@ -160,19 +160,16 @@ h3 {
 
 /*Card styling*/
 .card {
-    width: 100%;
-    height: auto;
-    margin: auto;
-    overflow: hidden;
-    margin-bottom: 5%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: darkgray;
+    flex-direction: column;
+    height: 100%;
     border-radius: 0 !important;
     border: 0px;
 }
-.card img {
+.card-body {
+    flex-grow: 1;
+  }
+.card-img-top {
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -187,6 +184,7 @@ h3 {
     text-align: left;
     width: 100%;
     height: auto;
+    border: 0px;
 }
 .card-title {
     font-size: 22px;
@@ -197,12 +195,7 @@ h3 {
 }
 
 /*Media Queries*/
-
-/*1 Extra extra small mobile devices (small phones, 320px and below)*/
-@media screen and (max-width: 320px) {
-
-}
-/*2 Small mobile devices (phones, 360px and above)*/
+/*1 Small mobile devices (phones, 360px and above)*/
 @media screen and (min-width: 360px) {
     .hero-img {
         padding: 0.8rem;
@@ -211,7 +204,7 @@ h3 {
         font-size: 1.2rem;
     }
 }
-/*3 Small devices (portrait tablets and large phones, 576px and up)*/
+/*2 Small devices (portrait tablets and large phones, 576px and up)*/
 @media screen and (min-width: 576px) {
     .hero-img {
         padding: 0.9rem;
@@ -221,7 +214,7 @@ h3 {
     }
 }
 
-/*4 Medium devices (landscape tablets, 768px and up)*/
+/*3 Medium devices (landscape tablets, 768px and up)*/
 @media screen and (min-width: 768px) {
 .btn-primary {
     font-size: 1.2rem;
@@ -233,7 +226,7 @@ h3 {
         font-size: 1.5rem;
     }
 }
-/*5 Large devices (laptops/desktops, 992px and up)*/
+/*4 Large devices (laptops/desktops, 992px and up)*/
 @media screen and (min-width: 992px) {
     body {
         font-size: 0.9rem;
@@ -250,7 +243,7 @@ h3 {
         font-size: 1.7rem;
     }
 }
-/*6 Extra large devices (large laptops and desktops, 1200px and up)*/
+/*5 Extra large devices (large laptops and desktops, 1200px and up)*/
 @media screen and (min-width: 1200px) {
     .btn-primary {
         font-size: 1.3rem;
@@ -263,7 +256,7 @@ h3 {
     }
 
 }
-/*7 Extra extra large devices (extra large laptops and desktops, 1400px and up)*/
+/*6 Extra extra large devices (extra large laptops and desktops, 1400px and up)*/
 @media screen and (min-width: 1400px) {
     .btn-primary {
         font-size: 1.4rem;
@@ -275,7 +268,7 @@ h3 {
         font-size: 1.9rem;
     }
 }
-/*8 Extra extra extra large devices (extra large laptops and desktops, 1600px and up)*/
+/*7 Extra extra extra large devices (extra large laptops and desktops, 1600px and up)*/
 @media screen and (min-width: 1600px) {
     .hero-img {
         padding: 1.5rem;
