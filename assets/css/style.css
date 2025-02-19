@@ -266,7 +266,7 @@ h3 {
 /*6 Extra large devices (large laptops and desktops, 1200px and up)*/
 @media screen and (min-width: 1200px) {
     .btn-primary {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .hero-img {
         padding: 1.2rem;
@@ -279,7 +279,7 @@ h3 {
 /*7 Extra extra large devices (extra large laptops and desktops, 1400px and up)*/
 @media screen and (min-width: 1400px) {
     .btn-primary {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
     .hero-img {
         padding: 1.2rem;
@@ -290,14 +290,7 @@ h3 {
 }
 /*8 Extra extra extra large devices (extra large laptops and desktops, 1600px and up)*/
 @media screen and (min-width: 1600px) {
-    .btn-primary {
-        font-size: 2rem;
-    }
     .hero-img {
-        width: 80vw;
-        height: auto;
-        margin: auto;
         padding: 1.5rem;
-        margin-bottom: 3%;
     }
 }
