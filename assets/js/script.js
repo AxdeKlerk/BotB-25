@@ -330,7 +330,7 @@ document.getElementById("go").addEventListener("click", function () {
 function getRandomBands(bands, count) {
     let shuffled = [...bands].sort(() => 0.5 - Math.random()); // Shuffle array
     return shuffled.slice(0, count); // Get the first 'count' elements
-};
+}
 
 function populateCards (bands) {
     const cardElements = document.querySelectorAll(".card"); //Gets all card elements
@@ -343,10 +343,14 @@ function populateCards (bands) {
         const titleElement = cardElements[index].querySelector(".card-title");
         const songElement = cardElements[index].querySelector(".song-title");
         const originElement = cardElements[index].querySelector(".origin");
+        const youtubeVideo = cardElements[index].querySelector(".youtube-video");
 
         if (titleElement) titleElement.textContent = bandData.bandName; //Updates band name
         if (songElement) songElement.textContent = bandData.songTitle; // Updates son title
         if (originElement) originElement.textContent = bandData.bandOrigin; // Updates band origin
+        if (youtubeVideo) youtubeVideo.dataset.video = bandData.youtubeVideo;// Updates Video
+        console.log("YouTube Video Set To:", youtubeVideo ? youtubeVideo.dataset.video : "Not Found"); // Debugging step
+
         } else {
             console.log(`Card ${index + 1} not found!`); // Debugging step
         }
@@ -354,3 +358,4 @@ function populateCards (bands) {
 };
 
 
+ 
