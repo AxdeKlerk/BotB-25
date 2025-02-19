@@ -12,7 +12,7 @@ const bandData = [
         bandName: 'Ashen Reach',
         songTitle: 'The Dark',
         bandOrigin: 'Liverpool',
-        youtubeVideo: '<iframe width="1246" height="701" src="https://www.youtube.com/embed/Pi98-q1l8dI" title="ASHEN REACH - THE DARK (OFFICIAL MUSIC VIDEO)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+        youtubeVideo:'https://www.youtube.com/embed/Pi98-q1l8dI',
     },
     {
         id: 2,
@@ -348,7 +348,10 @@ function populateCards (bands) {
         if (titleElement) titleElement.textContent = bandData.bandName; //Updates band name
         if (songElement) songElement.textContent = bandData.songTitle; // Updates son title
         if (originElement) originElement.textContent = bandData.bandOrigin; // Updates band origin
-        if (youtubeVideo) youtubeVideo.dataset.video = bandData.youtubeVideo;// Updates Video
+        // Updates Video
+        if (youtubeVideo) {
+            youtubeVideo.src = `${bandData.youtubeVideo}`;
+        }
         console.log("YouTube Video Set To:", youtubeVideo ? youtubeVideo.dataset.video : "Not Found"); // Debugging step
 
         } else {
