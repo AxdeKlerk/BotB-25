@@ -58,8 +58,8 @@ h3 {
     background-color:red;
   }
   .hero-title {
-    font-size: clamp(1.5rem, 5vw, 3rem); /* Adjusts text size dynamically */
-    margin-top: 20px; /* Adds spacing between image and title */
+    font-size: clamp(1.5rem, 5vw, 3rem);
+    margin-top: 20px;
   }
 
 /*Buttons*/
@@ -134,27 +134,12 @@ h3 {
 }
 
 /*Battle Page*/
-.battle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3.5%;
-    margin-bottom: 2.5%;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-}
 .battle-img-container {
     position: relative;
     display: inline-block;
     width: 100%;
-    max-width: 1400px;
 }
-
 .battle-img {
-    width: 100vw;
-    height: auto;
-    display: block;
     padding: 0.6rem;
     background-color: red;
 }
@@ -294,5 +279,8 @@ h3 {
 @media screen and (min-width: 1600px) {
     .hero-img {
         padding: 1.5rem;
+    }
+    .img-title {
+        font-size: 2rem;
     }
 }
