@@ -168,24 +168,23 @@ h3 {
     border: 0px;
 }
 .card-body {
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
+    background-color: black;
+    color: #F5EBDB;
+    text-align: left;
+    width: 100%;
+    border: 0px;
   }
 .card-img-top {
     width: 100%;
-    height: auto;
+    height: 200px;
     object-fit: cover;
     margin: auto;
     opacity: 0.6;
     overflow: hidden;
     border-radius: 0 !important;
-}
-.card-body {
-    background-color: black;
-    color: #F5EBDB;
-    text-align: left;
-    width: 100%;
-    height: auto;
-    border: 0px;
 }
 .card-title {
     font-size: 22px;
@@ -193,6 +192,9 @@ h3 {
 .card-text {
     font-size: 16px;
     line-height: 1;
+}
+.btn-play {
+    margin-top: auto; /* Ensures button stays at bottom */
 }
 
 /*Media Queries*/
