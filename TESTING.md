@@ -40,14 +40,14 @@ However, everything appeared to be working (see short snippet below):
 
 ![alt text](assets/imgs/documentation/console.log.1-first-randomly-selected-bands.png)
 
-After a quick Google search it returned the possibility that there was an error in trying to iopen extension and suggested that I open the website in Incognito mode. This resolved the issue and everything worked. I deleted and my cache and cookies and didn't have the problem again.
+After a quick Google search it returned the possibility that there was an error in trying to open disabled extensions and suggested that I open the website in Incognito mode. This resolved the issue and everything worked. I deleted all my cache and cookies and didn't have the problem again.
 
-2.2 The second major issue was trying to get the corresponding Youtube videos to play when the Launch button was pressed.
+2.2 The second major issue was trying to get the corresponding Youtube videos to pla in the iframe pop-up when the Launch button was pressed.
 
 
 ----------********
 
+## 3. Bugs Unresolved
+Possibly, the greatest 'bug' hat will always remain unresolved is my own imposter-syndrom. Having completed the course material I was left feeling like there were elements in the course that I did not understand, leaving large gaps in my learning. Following a conversation with my mentor, he suggested that the only way to learn was to tackle the subject matter 'head-on' and just keep practicing. 
 
-
-
-
+Although, this was extremely good advice I still struggled with self-doubt throughtout this project. In order to over-come this enough to complete the project I joined the Slack 'Imposter Syndrome' group. Even though I didn't contribute much due to feeling like an imposter in the group, it was encouraging to see others struggling and their coping techniques and mechanisms. The greatest piece of advice came from a newsletter I subscribe to by Sahil Bloom, where he adopted a technique given to him by a friend of his to have a 'Coaching Session' With yourself by emailing yourself and then giving yourself advise. This I practised sporadically until it became inbedded into my daily routine. 
