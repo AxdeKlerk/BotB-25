@@ -38,18 +38,8 @@ Possibly, the greatest 'bug' was my own imposter-syndrom. Having completed the c
 
 Although, this was extremely good advice I still struggled with self-doubt throughtout this project. In order to over-come this enough to complete the project I joined the Slack 'Imposter Syndrome' group. Even though I didn't contribute much due to feeling like an imposter in the group, it was encouraging to see others struggling and their coping techniques and mechanisms. The greatest piece of advice came from a newsletter I subscribe to by Sahil Bloom, where he adopted a technique given to him by a friend of his to have a 'Coaching Session' With yourself by emailing yourself and then giving yourself advise. This I practised sporadically until it became inbedded into my daily routine. 
 
-## 8. Testing
-For the testing and deployment of the site I followed the exact same process I did for project 1, as it seemed to be the most robust way of testing my project as I went along. I intend to use this same process for all my ptojects, both for the course material as well as any future work I undertake - albeit with additional practices as I learn more languages and tools.
-
-Deployment was done early following on from lessons and guidance in a Code Institute Software Development course. At the time of writing there had been **insert number here** deployments.
-
-As I went along I tested the website on my phone and laptop using both Google and Brave (a Google based browser), as well as testing it in MS Edge on my work laptop. I tested the site for responsiveness continually in Google and Brave as I went along. I tested it in Ms Edge very occassionally, as it is not a browser I like using. Other than my own testing two separate methods were also used for testing purposes: informal and formal testing.
-
-8.1 Informal manual (live) testing was done through friends and family who use different OS and devices, for feedback. In particular my girlfriend tested the site on Firefox on her laptop and on her mobile (which dates back to a pre 2018 model). My parents tested the site on their Google tablet and Amazon Kindle. 3 close friends tested the site on the different Apple devices (2 phones and 1 laptop)and a work colleague ran it through MS Edge as he wanted to keep up-to-date with the changes as I went along. My work colleague was very polite, but he did send me screen shots when he had questions about the development of the website.
-
-This was incredibly useful as it gave me a full understanding of each user experience. As this core group is very close to me their feedback was honest and to the point, which was both frustrating and extremely valuable. 
-
-8.2 Formal (automated) testing of the website was validated using the W3C Validation tools. The first validation of my html code resulted in 17 errors as seen here:
+## 8. Testing and Debugging
+Please refer to the [Testing and Debugging](TESTING.md) file.
 
 ## 9. Deployment
  Deployment was done early following on from lessons and guidance in a Code Institute Software Development course. At the time of writing there had been **insert number here** deployments.
