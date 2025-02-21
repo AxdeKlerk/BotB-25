@@ -2,6 +2,8 @@
 
 This is where guitars wail, amps crackle and drummers hit harder than your morning coffee. It’s not just a competition – it’s a **rock ‘n roll battlefield** where the loudest, most electrifying, emerging rock bands fight for glory.
 
+![responsive views on all devices](assets/imgs/documentation/responsive-views.png)
+
 ## 1. Introduction
 
 The Battle of Emerging Rock Bands 2025 (UK) website has been designed to allow users the opportunity of discovering new bands and their music, in a fun and interative way. By using a voting system, users are encouraged to watch at least 4 bands before they can either run the programme again or go and find more music by the bands they have just watched and listened to.
