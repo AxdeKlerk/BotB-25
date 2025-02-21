@@ -1,5 +1,6 @@
 # Testing and Debugging
-[Return back to READ.me file](../README.md)
+
+Return back to [READ.me](../README.md) file
 
 ## 1. Testing
 
@@ -23,6 +24,7 @@ I used the [W3C Validator website to validate all my HTML](https://validator.w3.
 | style.css   | [W3C CSS](https://jigsaw.w3.org/css-validator/)   | screenshot   | Pass: No Errors   |
 
 ### 1.2 Javascript Validation
+
 For my Javascript I used the [JShint Validator](https://jshint.com/) to validate my js files, as shown below with the corresponding screenshots, as recommended by the Code Institutes' course material:
 | Page | URL | Screenshot| Notes |
 |----------|----------|----------|----------|
@@ -32,6 +34,7 @@ For my Javascript I used the [JShint Validator](https://jshint.com/) to validate
 ### 1.3 Browswer Compatibility
 
 ## 2. Debugging
+
 2.1 The first bug I encounted, when live testing, was when I tried to auto populate the Battle Cards with the randomly selected band data, namely: Band Name, Song Title and Band's Origin. The first thing I did was to add console logs to the various js functions to try and debug the error, as shown here:
 
 ![alt text](assets/imgs/documentation/console.log.2-function-not-working-added-console.logs.png)
@@ -48,6 +51,7 @@ After a quick Google search it returned the possibility that there was an error 
 ----------********
 
 ## 3. Bugs Unresolved
+
 Possibly, the greatest 'bug' hat will always remain unresolved is my own imposter-syndrom. Having completed the course material I was left feeling like there were elements in the course that I did not understand, leaving large gaps in my learning. Following a conversation with my mentor, he suggested that the only way to learn was to tackle the subject matter 'head-on' and just keep practicing. 
 
 Although, this was extremely good advice I still struggled with self-doubt throughtout this project. In order to over-come this enough to complete the project I joined the Slack 'Imposter Syndrome' group. Even though I didn't contribute much due to feeling like an imposter in the group, it was encouraging to see others struggling and their coping techniques and mechanisms. The greatest piece of advice came from a newsletter I subscribe to by Sahil Bloom, where he adopted a technique given to him by a friend of his to have a 'Coaching Session' With yourself by emailing yourself and then giving yourself advise. This I practised sporadically until it became inbedded into my daily routine. 
