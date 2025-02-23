@@ -1,4 +1,4 @@
-// Stops the default behavior of the buttons removing the blue background when clicked
+// Stops the default behavior of the play buttons removing the blue background when clicked
 document.querySelectorAll(".btn-play").forEach((button) => {
     button.addEventListener("click", function(event) {
         event.preventDefault();
@@ -16,6 +16,14 @@ document.querySelectorAll(".btn-play").forEach((button) => {
         youtubeVideo.appendChild(iframe);
       });
     });
+
+//Reset iframe content when closed
+const videoModal = document.getElementById("videoModal");
+    if(videoModal) {
+    videoModal.addEventListener("hide.bs.modal", function () {
+    document.getElementById("video-frame").remove();
+  });
+}
 
 //Band data
 const bandData = [
@@ -337,19 +345,19 @@ document.getElementById("go").addEventListener("click", function () {
     console.log("Selected Bands:", selectedBands); // Debugging step
     
     populateCards(selectedBands); // Update existing Bootstrap cards
-})
+});
 
 function getRandomBands(bands, count) {
     let shuffled = [...bands].sort(() => 0.5 - Math.random()); // Shuffle array
     return shuffled.slice(0, count); // Get the first 'count' elements
-};
+}
 
 function populateCards(bands) {
     const cardElements = document.querySelectorAll(".card"); //Gets all card elements
     console.log("Total Cards Found:", cardElements.length); // Debugging step
 
     bands.forEach((bandData, index) => {
-    if (cardElements [index]) {
+    if(cardElements[index]) {
         console.log(`Updating Card ${index + 1}:`, bandData); // Debugging step
 
         const titleElement = cardElements[index].querySelector(".card-title");
@@ -361,6 +369,8 @@ function populateCards(bands) {
         if (songElement) songElement.textContent = bandData.songTitle; // Updates son title
         if (originElement) originElement.textContent = bandData.bandOrigin; // Updates band origin
         if (launchButton) launchButton.dataset.video = bandData.youtubeVideo; // Updates Video
-        }
+        }else {
+            console.log(`Card ${index + 1} not found!`); // Debugging step
+          }
     }
 )};
