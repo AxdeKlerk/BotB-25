@@ -33,7 +33,13 @@ For my Javascript I used the [JShint Validator](https://jshint.com/) to validate
 
 ### 1.3 Browswer Compatibility
 
-## 2. Debugging
+### 2. Lighthouse
+
+ - The first run of Lighthouse gave a value of 86 for SEO and 66 for performance. To improve the SEO meta tags where added to include a description, keywords and author for search engines. This simple addition increased the performance to 91.
+
+ - An "Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')" was highlighted under performance which meant that JavaScript was trying to attach an event listener to an element that doesn't exist (null). This was an easy fix by moving the bandData array to above the functions and moving the functions for the iframe population to below the functions for random bandData popultaion of cards.
+
+## 3. Debugging
 
 2.1 The first bug I encounted, when live testing, was when I tried to auto populate the Battle Cards with the randomly selected band data, namely: Band Name, Song Title and Band's Origin. The first thing I did was to add console logs to the various js functions to try and debug the error, as shown here:
 
@@ -46,7 +52,6 @@ However, everything appeared to be working (see short snippet below):
 After a quick Google search it returned the possibility that there was an error in trying to open disabled extensions and suggested that I open the website in Incognito mode. This resolved the issue and everything worked. I deleted all my cache and cookies and didn't have the problem again.
 
 2.2 The second major issue was trying to get the corresponding Youtube videos to play in the iframe pop-up when the Launch button was pressed.
-
 
 
 

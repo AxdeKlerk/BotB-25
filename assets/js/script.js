@@ -344,19 +344,19 @@ document.querySelectorAll(".btn-play").forEach((button) => {
     button.addEventListener("click", function(event) {
         event.preventDefault();
 
-        //Get Youtube Video dataset and insert into appended iframe
-        const youtubeVideo = document.getElementById("youtube-video");
-        const source = event.target.dataset.video;
-        const iframe = document.createElement("iframe");
-        iframe.setAttribute("src", source);
-        iframe.setAttribute(
-          "allow",
-          "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+// Gets Youtube Video dataset and inserts into appended iframe
+const youtubeVideo = document.getElementById("youtube-video");
+const source = event.target.dataset.video;
+const iframe = document.createElement("iframe");
+    iframe.setAttribute("src", source);
+    iframe.setAttribute(
+        "allow",
+        "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         );
-        iframe.setAttribute("id", "video-frame");
-        youtubeVideo.appendChild(iframe);
-      });
+    iframe.setAttribute("id", "video-frame");
+    youtubeVideo.appendChild(iframe);
     });
+});
 
 //Reset iframe content when closed
 const videoModal = document.getElementById("videoModal");
