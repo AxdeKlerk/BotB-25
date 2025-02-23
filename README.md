@@ -24,7 +24,7 @@ The target Audience for this website are fellow rock and metal heads. More speci
 
 ## 5. Goals
 
-To create a website that is visually appealing, enjoyable to engage with and simple to use so as not to detract from the aim and objective of the website: to discover new music.
+To create a website that is visually appealing, enjoyable to engage with, light-hearted and simple to use so as not to detract from the aim and objective of the website: to discover new music.
 
 ## 6. Planning and Development
 
@@ -40,7 +40,7 @@ The colour palettet chosen is the typical colour scheme of the rock and metal sc
 
 I found the colour using [coolors.co](https://coolors.co/) website.
 
-I also included the dark grey dor the Navbar to make it stand out againt the black background.
+I also included the dark grey for the Navbar to make it stand out againt the black background with just enough contrast so that it stood out just enough without making it a stand-out feature, as the navigation of the website is quite self-explanitary.
 
 ### 6.3 Typography
 
@@ -49,6 +49,28 @@ For ease and simplicity I chose Geist Mono with a monospaced appearance, through
 ![Geist Mono Typography](<assets/imgs/documentation/Geist Mono.png>)
 
 ## 7. Features
+
+7.1 The Landing Page
+
+7.1.1 The Navbar
+
+7.1.2 The Hero Image
+
+7.1.3 The About Section
+
+7.1.4 The Battle and How Buttons
+
+7.2 The Battle Page 
+
+7.2.1 The Battle Cards
+
+7.2.2 The Video Pop-Up
+
+7.2.3 The Voting Form
+
+7.3 The Thank You Page
+
+7.4 The 404 Page
 
 ## 8. Testing and Debugging
 

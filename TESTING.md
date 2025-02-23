@@ -45,7 +45,9 @@ However, everything appeared to be working (see short snippet below):
 
 After a quick Google search it returned the possibility that there was an error in trying to open disabled extensions and suggested that I open the website in Incognito mode. This resolved the issue and everything worked. I deleted all my cache and cookies and didn't have the problem again.
 
-2.2 The second major issue was trying to get the corresponding Youtube videos to pla in the iframe pop-up when the Launch button was pressed.
+2.2 The second major issue was trying to get the corresponding Youtube videos to play in the iframe pop-up when the Launch button was pressed.
+
+
 
 
 ----------********

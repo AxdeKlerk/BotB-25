@@ -359,6 +359,3 @@ function populateCards (bands) {
         }
     })
 };
-
-
- 
