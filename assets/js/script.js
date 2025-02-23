@@ -311,10 +311,15 @@ const bandData = [
 ];
 
 //Function to get 4 randomly selected bands form the above array when clicking the "Go" button
-document.getElementById("go").addEventListener("click", function () {
-    const selectedBands = getRandomBands(bandData, 4); // Select 4 random bands
-    populateCards(selectedBands); // Update existing Bootstrap cards
-});
+document.addEventListener("DOMContentLoaded", () => {
+    const goButton = document.querySelector("#go-btn");
+    if (goButton) {
+        goButton.addEventListener("click", function() {
+        const selectedBands = getRandomBands(bandData, 4); // Select 4 random bands
+        populateCards(selectedBands); // Update existing Bootstrap cards
+        })
+    }
+})
 
 function getRandomBands(bands, count) {
     let shuffled = [...bands].sort(() => 0.5 - Math.random()); // Shuffle array

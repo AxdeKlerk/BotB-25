@@ -37,7 +37,9 @@ For my Javascript I used the [JShint Validator](https://jshint.com/) to validate
 
  - The first run of Lighthouse gave a value of 86 for SEO and 66 for performance. To improve the SEO meta tags where added to include a description, keywords and author for search engines. This simple addition increased the performance to 91.
 
- - An "Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')" was highlighted under performance which meant that JavaScript was trying to attach an event listener to an element that doesn't exist (null). This was an easy fix by moving the bandData array to above the functions and moving the functions for the iframe population to below the functions for random bandData popultaion of cards.
+ - An "Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')" was highlighted under performance which meant that JavaScript was trying to attach an event listener to an element that doesn't exist (null). At first, I thought that this was an easy fix by moving the bandData array to above the functions and moving the functions for the iframe population to below the functions for random bandData popultaion of cards. However, this did not fix the error.
+  
+  What "document.getElementById("go").addEventListener("click", function () {" was trying to select the elementID "go" before it is loaded in the DOM. To fix this I wrapped the script into 'DOMContentLoaded' to ensure that the script runs only after the DOM is fully loaded. This worked.
 
 ## 3. Debugging
 
