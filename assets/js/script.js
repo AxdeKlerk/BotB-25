@@ -1,30 +1,3 @@
-// Stops the default behavior of the play buttons removing the blue background when clicked
-document.querySelectorAll(".btn-play").forEach((button) => {
-    button.addEventListener("click", function(event) {
-        event.preventDefault();
-
-        //Get Youtube Video dataset and insert into appended iframe
-        const youtubeVideo = document.getElementById("youtube-video");
-        const source = event.target.dataset.video;
-        const iframe = document.createElement("iframe");
-        iframe.setAttribute("src", source);
-        iframe.setAttribute(
-          "allow",
-          "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        );
-        iframe.setAttribute("id", "video-frame");
-        youtubeVideo.appendChild(iframe);
-      });
-    });
-
-//Reset iframe content when closed
-const videoModal = document.getElementById("videoModal");
-    if(videoModal) {
-    videoModal.addEventListener("hide.bs.modal", function () {
-    document.getElementById("video-frame").remove();
-  });
-}
-
 //Band data
 const bandData = [
     {
@@ -337,7 +310,7 @@ const bandData = [
     },
 ];
 
-//Function to get 4 randomly selected bands form the above array
+//Function to get 4 randomly selected bands form the above array when clicking the "Go" button
 document.getElementById("go").addEventListener("click", function () {
     const selectedBands = getRandomBands(bandData, 4); // Select 4 random bands
     populateCards(selectedBands); // Update existing Bootstrap cards
@@ -365,3 +338,30 @@ function populateCards(bands) {
         }
     }
 )};
+
+// Stops the default behavior of the play buttons removing the blue background when clicked
+document.querySelectorAll(".btn-play").forEach((button) => {
+    button.addEventListener("click", function(event) {
+        event.preventDefault();
+
+        //Get Youtube Video dataset and insert into appended iframe
+        const youtubeVideo = document.getElementById("youtube-video");
+        const source = event.target.dataset.video;
+        const iframe = document.createElement("iframe");
+        iframe.setAttribute("src", source);
+        iframe.setAttribute(
+          "allow",
+          "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        );
+        iframe.setAttribute("id", "video-frame");
+        youtubeVideo.appendChild(iframe);
+      });
+    });
+
+//Reset iframe content when closed
+const videoModal = document.getElementById("videoModal");
+    if(videoModal) {
+    videoModal.addEventListener("hide.bs.modal", function () {
+    document.getElementById("video-frame").remove();
+  });
+}
