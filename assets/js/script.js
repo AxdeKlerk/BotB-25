@@ -1,9 +1,21 @@
 // Stops the default behavior of the buttons removing the blue background when clicked
-document.querySelectorAll(".btn-play").forEach(button => {
+document.querySelectorAll(".btn-play").forEach((button) => {
     button.addEventListener("click", function(event) {
         event.preventDefault();
+
+        //Get Youtube Video dataset and insert into appended iframe
+        const youtubeVideo = document.getElementById("youtube-video");
+        const source = event.target.dataset.video;
+        const iframe = document.createElement("iframe");
+        iframe.setAttribute("src", source);
+        iframe.setAttribute(
+          "allow",
+          "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        );
+        iframe.setAttribute("id", "video-frame");
+        youtubeVideo.appendChild(iframe);
+      });
     });
-});
 
 //Band data
 const bandData = [
@@ -324,20 +336,20 @@ document.getElementById("go").addEventListener("click", function () {
     const selectedBands = getRandomBands(bandData, 4); // Select 4 random bands
     console.log("Selected Bands:", selectedBands); // Debugging step
     
-    populateCards (selectedBands); // Update existing Bootstrap cards
-});
+    populateCards(selectedBands); // Update existing Bootstrap cards
+})
 
 function getRandomBands(bands, count) {
     let shuffled = [...bands].sort(() => 0.5 - Math.random()); // Shuffle array
     return shuffled.slice(0, count); // Get the first 'count' elements
 };
 
-function populateCards (bands) {
+function populateCards(bands) {
     const cardElements = document.querySelectorAll(".card"); //Gets all card elements
     console.log("Total Cards Found:", cardElements.length); // Debugging step
 
-    bands.forEach ((bandData, index) => {
-        if (cardElements [index]) {
+    bands.forEach((bandData, index) => {
+    if (cardElements [index]) {
         console.log(`Updating Card ${index + 1}:`, bandData); // Debugging step
 
         const titleElement = cardElements[index].querySelector(".card-title");
@@ -349,12 +361,6 @@ function populateCards (bands) {
         if (songElement) songElement.textContent = bandData.songTitle; // Updates son title
         if (originElement) originElement.textContent = bandData.bandOrigin; // Updates band origin
         if (launchButton) launchButton.dataset.video = bandData.youtubeVideo; // Updates Video
-
         }
-        console.log("YouTube Video Set To:", youtubeVideo ? youtubeVideo.dataset.video : "Not Found"); // Debugging step
-
-        } else {
-            console.log(`Card ${index + 1} not found!`); // Debugging step
-        }
-    })
-};
+    }
+)};
