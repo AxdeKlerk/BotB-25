@@ -48,7 +48,32 @@
         <div class="battle-img-container">
           <img src="assets/imgs/battle-img.jpg" class="img-fluid battle-img" alt="Battle Image">
           <div class="img-title">Ready?... Set?... BATTLE!</div>
-          <button class="btn btn-primary battle-btn" id="go-btn" role="button">GO!</button>
+          <form class="row align-items-center justify-content-center vote-form">
+            <div class="col-12 text-center">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="vote-1" value="option1">
+                <label class="form-check-label" for="vote-1">Band 1</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="vote-2" value="option2">
+                <label class="form-check-label" for="vote-2">Band 2</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Vote-3" value="option3">
+                <label class="form-check-label" for="vote-3">Band 3</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Vote-4" value="option3">
+                <label class="form-check-label" for="vote-4">Band 4</label>
+              </div>
+              <input class="btn btn-primary vote-btn" type="submit" value="Vote">
+            </div>
+          </form>
+          <div class="row align-items-center justify-content-center go-btn">
+            <div class="col-12 text-center">
+              <button class="btn btn-primary battle-btn" id="go-btn" role="button">GO!</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>  

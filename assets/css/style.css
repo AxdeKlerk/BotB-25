@@ -144,7 +144,6 @@ h3 {
     padding: 0.6rem;
     background-color: red;
 }
-
 .img-title {
     position: absolute;
     top: 50%;
@@ -157,6 +156,23 @@ h3 {
     text-align: center;
     width: 80%;
     max-width: 600px;
+}
+.vote-form {
+    position: absolute;
+    margin: auto;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-align: center;
+    width: 90%;
+    max-width: 900px;
+}
+.go-btn {
+    position: absolute;
+    padding-top: 50%;
 }
 
 /*Card styling*/
@@ -205,6 +221,11 @@ h3 {
     }
     .img-title {
         font-size: 1.2rem;
+        top: 20%;
+    }
+    .vote-form {
+        position: absolute;
+        top: 60%;
     }
 }
 /*2 Small devices (portrait tablets and large phones, 576px and up)*/
