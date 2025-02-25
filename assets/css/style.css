@@ -136,24 +136,26 @@ h3 {
 
 /*Battle Page*/
 .battle-img-container {
-    position: relative;
-    display: inline-block;
-    width: 100%;
+    position: relative; /* Make this the reference point */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .battle-img {
+    aspect-ratio: 16/9;
     padding: 0.6rem;
     background-color: red;
 }
 .img-title {
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, 0.5);
     color: red;
-    padding: 10px 20px;
     font-size: 14px;
     text-align: center;
+    padding: 10px 20px;
     width: 80%;
     max-width: 900px;
 }
