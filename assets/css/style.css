@@ -146,7 +146,7 @@ h3 {
 }
 .img-title {
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, 0.5);
@@ -155,24 +155,12 @@ h3 {
     font-size: 14px;
     text-align: center;
     width: 80%;
-    max-width: 600px;
-}
-.vote-form {
-    position: absolute;
-    margin: auto;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: red;
-    padding: 10px 20px;
-    font-size: 14px;
-    text-align: center;
-    width: 90%;
     max-width: 900px;
 }
 .go-btn {
-    position: absolute;
-    padding-top: 50%;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /*Card styling*/
@@ -213,20 +201,21 @@ h3 {
     margin-top: auto; /* Ensures button stays at bottom */
 }
 
+/*Voting Form*/
+.vote-form {
+    color: red;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
 /*Media Queries*/
 /*1 Small mobile devices (phones, 360px and above)*/
 @media screen and (min-width: 360px) {
     .hero-img {
         padding: 0.8rem;
     }
-    .img-title {
-        font-size: 1.2rem;
-        top: 20%;
-    }
-    .vote-form {
-        position: absolute;
-        top: 60%;
-    }
+
 }
 /*2 Small devices (portrait tablets and large phones, 576px and up)*/
 @media screen and (min-width: 576px) {
