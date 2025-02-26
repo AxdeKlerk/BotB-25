@@ -52,9 +52,9 @@ const bandData = [
     {
         id: 8,
         bandName: 'Bobbie Dazzle',
-        songTitle: 'Lady on fire',
+        songTitle: 'Merry-go-round',
         bandOrigin: 'London',
-        youtubeVideo: 'https://www.youtube.com/embed/wag79aYvTbI',
+        youtubeVideo: 'https://www.youtube.com/embed/Y7rVJNFdbBs',
     },
     {
         id: 9,
