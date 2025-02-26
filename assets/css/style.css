@@ -210,6 +210,11 @@ h3 {
     font-size: 14px;
     text-align: center;
 }
+.band-name {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
 
 /*Media Queries*/
 /*1 Small mobile devices (phones, 360px and above)*/
