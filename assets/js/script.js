@@ -51,171 +51,171 @@ const bandData = [
     },
     {
         id: 8,
-        bandName: 'Bobbie Dazzle',
-        songTitle: 'Merry-go-round',
-        bandOrigin: 'London',
-        youtubeVideo: 'https://www.youtube.com/embed/Y7rVJNFdbBs',
+        bandName: 'Blue Nation',
+        songTitle: 'Hand me down',
+        bandOrigin: 'Birmingham',
+        youtubeVideo: 'https://www.youtube.com/embed/5ssdrXSgUQU',
     },
     {
         id: 9,
-        bandName: 'Continental Lovers',
-        songTitle: 'Connection',
-        bandOrigin: 'Nottingham',
-        youtubeVideo: 'https://www.youtube.com/embed/9UIbFRh4K80',
+        bandName: 'Brave Revival',
+        songTitle: 'Run and hide',
+        bandOrigin: 'Portsmouth',
+        youtubeVideo: 'https://www.youtube.com/embed/BwnQs4grmH8',
     },
     {
         id: 10,
-        bandName: 'Crashed Out',
-        songTitle: 'Against all odds',
-        bandOrigin: 'Jarrow',
-        youtubeVideo: 'https://www.youtube.com/embed/M0lHUqUI57A',
+        bandName: 'Crooked Revival',
+        songTitle: 'Demons',
+        bandOrigin: 'Leeds',
+        youtubeVideo: 'https://www.youtube.com/embed/XDvW_lqSTRc',
     },
     {
         id: 11,
+        bandName: 'Dan Byrne',
+        songTitle: 'Death of Me',
+        bandOrigin: 'Liverpool',
+        youtubeVideo: 'https://www.youtube.com/embed/QPzesx_RwEI',
+    },
+    {
+        id: 12,
         bandName: 'Daylight Robbery',
         songTitle: 'GODZ',
         bandOrigin: 'Birmingham',
         youtubeVideo: 'https://www.youtube.com/embed/Obrf7RKKwqo',
     },
     {
-        id: 12,
+        id: 13,
         bandName: 'Dead Fire',
         songTitle: 'Pro[pain]',
         bandOrigin: 'Aberdeen',
         youtubeVideo: 'https://www.youtube.com/embed/OlEXGFBmB-E',
     },
     {
-        id: 13,
+        id: 14,
         bandName: 'Dead Reynolds',
         songTitle: 'Hurricane',
         bandOrigin: 'East Anglia',
         youtubeVideo: 'https://www.youtube.com/embed/25yrqCvdAIY',
     },
     {
-        id: 14,
+        id: 15,
         bandName: 'Dendera',
         songTitle: 'Claim our throne',
         bandOrigin: 'Portsmouth',
         youtubeVideo: 'https://www.youtube.com/embed/V0bk7cdBsKI',
     },
     {
-        id: 15,
+        id: 16,
         bandName: 'Drones',
         songTitle: 'Please vacate the planet',
         bandOrigin: 'Manchester',
         youtubeVideo: 'https://www.youtube.com/embed/bz3r_2dAy1k',
     },
     {
-        id: 16,
+        id: 17,
         bandName: 'Falling Red',
         songTitle: 'We escape a cult',
         bandOrigin: 'Carlisle',
         youtubeVideo: 'https://www.youtube.com/embed/kFBZCCW2zDQ',
     },
     {
-        id: 17,
+        id: 18,
         bandName: 'Heart Break Remedy',
         songTitle: 'Tequila Butterfly',
         bandOrigin: 'Lake District',
         youtubeVideo: 'https://www.youtube.com/embed/WcWDgZlIXHs',
     },
     {
-        id: 18,
+        id: 19,
         bandName: 'Jayler',
         songTitle: 'Lovemaker',
         bandOrigin: 'West Midlands',
         youtubeVideo: 'https://www.youtube.com/embed/X4_O0nQL3eM',
     },
     {
-        id: 19,
+        id: 20,
         bandName: 'Jehenna',
         songTitle: 'Hollow',
         bandOrigin: 'Norfolk',
         youtubeVideo: 'https://www.youtube.com/embed/eQOum5Bso98',
     },
     {
-        id: 20,
+        id: 21,
         bandName: 'Juliets Not Dead',
         songTitle: 'Open fire',
         bandOrigin: 'North East',
         youtubeVideo: 'https://www.youtube.com/embed/BlT9UiVRpLo?list=RDEMd_tIh37eMGwnpuWuum3Shg',
     },
     {
-        id: 21,
+        id: 22,
+        bandName: 'King Kraken',
+        songTitle: 'Berserker',
+        bandOrigin: 'South Wales',
+        youtubeVideo: 'https://www.youtube.com/embed/rpXLsW39BtM',
+    },    
+    {
+        id: 23,
+        bandName: 'Kit Trigg',
+        songTitle: 'Goin for glory',
+        bandOrigin: 'Farnham',
+        youtubeVideo: 'https://www.youtube.com/embed/zmxnA2eezfc',
+    },
+    {
+        id: 24,
         bandName: 'Kite Thief',
         songTitle: 'Judge Judy & Executioner',
         bandOrigin: 'Bristol',
         youtubeVideo: 'https://www.youtube.com/embed/SufnjUd2Uco',
     },
     {
-        id: 22,
-        bandName: 'Knock out Kaine',
-        songTitle: 'Set the night on fire',
-        bandOrigin: 'Lincoln',
-        youtubeVideo: 'https://www.youtube.com/embed/0FmmP26DxL8',
-    },
-    {
-        id: 23,
+        id: 25,
         bandName: 'Lavire',
         songTitle: 'Fall from grace',
         bandOrigin: 'Lincoln',
         youtubeVideo: 'https://www.youtube.com/embed/IqRTgAHla1g',
     },
     {
-        id: 24,
-        bandName: 'Lesbian Death Bed',
-        songTitle: 'Rhythm of the kill',
-        bandOrigin: 'Stoke-on-Trent',
-        youtubeVideo: 'https://www.youtube.com/embed/lvy8ciNFzkg',
-    },
-    {
-        id: 25,
-        bandName: 'King Kraken',
-        songTitle: 'Berserker',
-        bandOrigin: 'South Wales',
-        youtubeVideo: 'https://www.youtube.com/embed/rpXLsW39BtM',
-    },
-    {
         id: 26,
+        bandName: 'Luke Appleton',
+        songTitle: 'Before your eyes',
+        bandOrigin: 'Manchester',
+        youtubeVideo: 'https://www.youtube.com/embed/WzGj3t6p5U0',
+    },
+    {
+        id: 27,
         bandName: 'Manors',
         songTitle: 'Addicted',
         bandOrigin: 'Newcastle',
         youtubeVideo: 'https://www.youtube.com/embed/14gD_thmn3U',
     },
     {
-        id: 27,
+        id: 28,
         bandName: 'Marisa and the Moths',
         songTitle: 'Get it off my chest',
         bandOrigin: 'Reading',
         youtubeVideo: 'https://www.youtube.com/embed/meViE35XsQA',
     },
     {
-        id: 28,
+        id: 29,
         bandName: 'Mint',
         songTitle: 'M180',
         bandOrigin: 'Grimsby',
         youtubeVideo: 'https://www.youtube.com/embed/9wyjjGdSKWM',
     },
     {
-        id: 29,
-        bandName: 'Muddi Brooke',
-        songTitle: 'ADHD',
-        bandOrigin: 'Derby',
-        youtubeVideo: 'https://www.youtube.com/embed/u62MIhfOrhI',
+        id: 30,
+        bandName: 'Not Now Norman',
+        songTitle: 'Who I am',
+        bandOrigin: 'Newcastle',
+        youtubeVideo: 'https://www.youtube.com/embed/5wGx9IXzDAU',
     },
     {
-        id: 30,
+        id: 31,
         bandName: 'Old Glory and the Black Riviera',
         songTitle: 'Where did I go wrong',
         bandOrigin: 'Stoke-on-Trent',
         youtubeVideo: 'https://www.youtube.com/embed/xNfpQUBNtJw',
-    },
-    {
-        id: 31,
-        bandName: 'Oli Brown and the Dead Collective',
-        songTitle: 'Sinking ship',
-        bandOrigin: 'England',
-        youtubeVideo: 'https://www.youtube.com/embed/as8EpD6kBLs?list=RDEMsWe54CC384TnUSl0BXolCg',
     },
     {
         id: 32,
@@ -230,21 +230,22 @@ const bandData = [
         songTitle: 'Dead to me',
         bandOrigin: 'Canterbury',
         youtubeVideo: 'https://www.youtube.com/embed/rO2nlkJjlCg',
-    },
+    },    
     {
         id: 34,
+        bandName: 'Ransom',
+        songTitle: 'Strap yourself in',
+        bandOrigin: 'London',
+        youtubeVideo: 'https://www.youtube.com/embed/W2-j17eSQJM',
+    },
+    {
+        id: 35,
         bandName: 'Reckoner',
         songTitle: 'Artificial living',
         bandOrigin: 'Midlands',
         youtubeVideo: 'https://www.youtube.com/embed/uEmMvtuQiTc',
     },
-    {
-        id: 35,
-        bandName: 'Silveroller',
-        songTitle: 'Hold',
-        bandOrigin: 'England',
-        youtubeVideo: 'https://www.youtube.com/embed/msLN4XxtPXw',
-    },
+
     {
         id: 36,
         bandName: 'SKAM',
@@ -315,8 +316,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const goButton = document.querySelector("#go-btn");
     if (goButton) {
         goButton.addEventListener("click", function() {
-        const selectedBands = getRandomBands(bandData, 4); // Select 4 random bands
-        populateCards(selectedBands); // Update existing Bootstrap cards
+        const selectedBands = getRandomBands(bandData, 4); // Selects 4 random bands
+        populateCardsAndVotes(selectedBands); // Update Bootstrap cards
         })
     }
 })
@@ -326,8 +327,9 @@ function getRandomBands(bands, count) {
     return shuffled.slice(0, count); // Get the first 'count' elements
 }
 
-function populateCards(bands) {
+function populateCardsAndVotes(bands) {
     const cardElements = document.querySelectorAll(".card"); //Gets all card elements
+    const formElements = document.querySelectorAll(".vote"); // Gets all vote elements
 
     bands.forEach((bandData, index) => {
     if(cardElements[index]) {
@@ -335,14 +337,17 @@ function populateCards(bands) {
         const songElement = cardElements[index].querySelector(".song-title");
         const originElement = cardElements[index].querySelector(".origin");
         const launchButton = cardElements[index].querySelector(".btn-play");
+        const voteBand = formElements[index].querySelector(".band-name");
 
         if (titleElement) titleElement.textContent = bandData.bandName; //Updates band name
         if (songElement) songElement.textContent = bandData.songTitle; // Updates son title
         if (originElement) originElement.textContent = bandData.bandOrigin; // Updates band origin
         if (launchButton) launchButton.dataset.video = bandData.youtubeVideo; // Updates Video
+        if (voteBand) voteBand.textContent = bandData.bandName;
         }
     }
 )};
+
 
 // Stops the default behavior of the play buttons removing the blue background when clicked
 document.querySelectorAll(".btn-play").forEach((button) => {
