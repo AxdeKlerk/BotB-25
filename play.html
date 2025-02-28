@@ -59,8 +59,8 @@
   </section>
 
   <!--Battle Cards-->
-    <div class="container">
-      <div class="row">
+    <div class="container-fluid battle-cards mt-2">
+      <div class="row gx-5 overflow-hidden vote-form align-items-start justify-content-center">
         <div class="col-12 col-md-6 col-xl-3 d-flex align-items-end justify-content-around">
           <div class="card h-100" style="width: 15rem;">
             <img src="assets/imgs/battle-img-2.jpg" class="card-img-top" alt="...">
@@ -137,33 +137,35 @@
   
   <!--Voting form-->
   <form class="container-fluid" onsubmit="window.location.href='thankyou.html'; return false;">
-    <div class="row align-items-center justify-content-center vote-form">
-      <div class="col-12 col-md-6 col-xl-3 d-flex align-self-center justify-content-md-between">
+    <div class="row vote-form d-flex align-items-center justify-content-center">
+      <div class="col-12 col-xl-3 d-flex align-items-center justify-content-start">
         <div class="form-check form-check-inline vote">
           <input class="form-check-input" type="radio" name="inlineRadioOptions" id="vote-1" value="option1">
           <label class="form-check-label band-name" for="vote-1">Band 1</label>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-xl-3 d-flex align-self-center justify-content-md-between">
+      <div class="col-12 col-xl-3 d-flex align-items-center justify-content-start">
         <div class="form-check form-check-inline vote">
           <input class="form-check-input" type="radio" name="inlineRadioOptions" id="vote-2" value="option2">
           <label class="form-check-label band-name" for="vote-2">Band 2</label>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-xl-3 d-flex align-self-center justify-content-md-between">
+      <div class="col-12 col-xl-3 d-flex align-items-center justify-content-start">
         <div class="form-check form-check-inline vote">
           <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Vote-3" value="option3">
           <label class="form-check-label band-name" for="vote-3">Band 3</label>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-xl-3 d-flex align-self-center justify-content-md-between">
+      <div class="col-12 col-xl-3 d-flex align-items-center justify-content-start">
         <div class="form-check form-check-inline vote">
           <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Vote-4" value="option3">
           <label class="form-check-label band-name" for="vote-4">Band 4</label>
         </div>
       </div>
-        <div>
+        <div class="row">
+          <div class="col-12 col-xl-3 d-flex align-items-center justify-content-around">
           <input class="btn btn-primary vote-btn" type="submit" value="Vote">
+          </div>
         </div>
       </div>
     </div>
