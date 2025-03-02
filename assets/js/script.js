@@ -23,7 +23,7 @@ const bandData = [
     },
     {
         id: 4,
-        bandName: 'Beth Blade',
+        bandName: 'Beth Blade and the Beautiful Disasters',
         songTitle: 'Jack and Coke',
         bandOrigin: 'Cardiff',
         youtubeVideo: 'https://www.youtube.com/embed/SXOw4c5H0uo?list=RDEMMmMngZqCY7I8vc7m4eozLw',
