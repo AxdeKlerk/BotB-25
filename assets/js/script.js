@@ -376,6 +376,7 @@ const videoModal = document.getElementById("videoModal");
   });
 }
 
+// Enable the submit button when a radio button is clicked
 document.addEventListener("DOMContentLoaded", function () {
     const submitInput = document.getElementById("vote-submit"); // The submit input
     const radioButtons = document.querySelectorAll('input[name="inlineRadioOptions"]');
@@ -390,4 +391,10 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+// Reset the form after submission
+    voteForm.addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent default form submission
+});
+
 
