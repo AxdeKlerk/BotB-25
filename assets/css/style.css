@@ -35,6 +35,13 @@ h3 {
     margin-bottom: 1%;
     background-color: #a9a9a9;
 }
+.nav-item {
+    color: #B9D2C9;
+    text-decoration: none;
+}
+.nav-item:hover {
+    color: red;
+}
 .nav-item a {
     color: #B9D2C9;
     text-decoration: none;
