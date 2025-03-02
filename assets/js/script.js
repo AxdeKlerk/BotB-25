@@ -384,10 +384,12 @@ document.addEventListener("DOMContentLoaded", function () {
 // Initially disable the radio buttons and submit input
     radioButtons.forEach(radio => radio.disabled = true);
     submitInput.disabled = true;
+    goButton.disabled = false;
 
 // Enable the radio buttons when band names are populated
     goButton.addEventListener("click", function() {
         radioButtons.forEach(radio => radio.disabled = false);
+        goButton.disabled = true; // Disable goButton after it has been clicked
     });
 
 
