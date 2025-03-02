@@ -142,7 +142,7 @@ h3 {
     align-items: center;
 }
 .battle-img {
-    aspect-ratio: 16/9;
+    aspect-ratio: auto 640/360;
     padding: 0.6rem;
     background-color: red;
 }
