@@ -393,6 +393,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // Reset the form after submission
+const voteForm = document.getElementById("vote-form");
+    if (voteForm)
     voteForm.addEventListener("submit", function (event) {
         event.preventDefault(); // Prevent default form submission
 });
