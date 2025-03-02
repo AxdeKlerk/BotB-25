@@ -13,14 +13,12 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
-h1 {
-    color: red !important;
-    text-align: center;
-}
+h1
 h2 {
     color: red;
     text-align: center;
 }
+
 h3 {
     color: #B9D2C9;
     text-align: center;
@@ -28,10 +26,10 @@ h3 {
 
 /*Nav bar styling*/
 .navbar-brand {
-    color: #B9D2C9 !important;
+    color: #B9D2C9;
 }
 .navbar-brand:hover {
-    color: red !important;
+    color: red;
 }
 .navbar {
     margin-top: 1%;
@@ -39,10 +37,10 @@ h3 {
     background-color: #a9a9a9;
 }
 .navbar a {
-    color: #B9D2C9 !important;
+    color: #B9D2C9;
 }
 .navbar a:hover {
-    color: red !important;
+    color: red;
 }
 
 /*Hero section*/
@@ -142,7 +140,7 @@ h3 {
     align-items: center;
 }
 .battle-img {
-    aspect-ratio: 16/9;
+    aspect-ratio: auto 640/360;
     padding: 0.6rem;
     background-color: red;
 }
