@@ -343,11 +343,10 @@ function populateCardsAndVotes(bands) {
         if (songElement) songElement.textContent = bandData.songTitle; // Updates son title
         if (originElement) originElement.textContent = bandData.bandOrigin; // Updates band origin
         if (launchButton) launchButton.dataset.video = bandData.youtubeVideo; // Updates Video
-        if (voteBand) voteBand.textContent = bandData.bandName;
+        if (voteBand) voteBand.textContent = bandData.bandName; //Updates band name in vote form
         }
     }
 )};
-
 
 // Stops the default behavior of the play buttons removing the blue background when clicked
 document.querySelectorAll(".btn-play").forEach((button) => {
@@ -376,15 +375,23 @@ const videoModal = document.getElementById("videoModal");
   });
 }
 
-// Enable the submit button when a radio button is clicked
+// Form functionality
 document.addEventListener("DOMContentLoaded", function () {
     const submitInput = document.getElementById("vote-submit");
     const radioButtons = document.querySelectorAll('input[name="inlineRadioOptions"]');
-
-// Initially disable the input
+    const goButton = document.getElementById("go-btn");
+    
+// Initially disable the radio buttons and submit input
+    radioButtons.forEach(radio => radio.disabled = true);
     submitInput.disabled = true;
 
-    // Enable it when a radio button is clicked
+// Enable the radio buttons when band names are populated
+    goButton.addEventListener("click", function() {
+        radioButtons.forEach(radio => radio.disabled = false);
+    });
+
+
+// Enable voting button when a radio button is clicked
     radioButtons.forEach(radio => {
         radio.addEventListener("change", function () {
             submitInput.disabled = false;
@@ -394,7 +401,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Reset the form after submission
 const voteForm = document.getElementById("vote-form");
-    if (voteForm)
+if (voteForm) {
     voteForm.addEventListener("submit", function (event) {
         event.preventDefault(); // Prevent default form submission
-});
+    });
+}
