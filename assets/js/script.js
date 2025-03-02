@@ -375,3 +375,19 @@ const videoModal = document.getElementById("videoModal");
     document.getElementById("video-frame").remove();
   });
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    const submitInput = document.getElementById("vote-submit"); // The submit input
+    const radioButtons = document.querySelectorAll('input[name="inlineRadioOptions"]');
+
+    // Initially disable the input
+    submitInput.disabled = true;
+
+    // Enable it when a radio button is clicked
+    radioButtons.forEach(radio => {
+        radio.addEventListener("change", function () {
+            submitInput.disabled = false;
+        });
+    });
+});
+

@@ -221,6 +221,13 @@ h3 {
     padding-bottom: 10px;
     text-align: left;
 }
+#vote-submit:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    color: red;
+    background-color: #F5EBDB;
+    border: none;
+}
 
 /*Media Queries*/
 /*1 Small mobile devices (phones, 360px and above)*/
