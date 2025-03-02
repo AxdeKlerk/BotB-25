@@ -365,8 +365,8 @@ const iframe = document.createElement("iframe");
         );
     iframe.setAttribute("id", "video-frame");
     youtubeVideo.appendChild(iframe);
+        });
     });
-});
 
 //Reset iframe content when closed
 const videoModal = document.getElementById("videoModal");
@@ -378,10 +378,10 @@ const videoModal = document.getElementById("videoModal");
 
 // Enable the submit button when a radio button is clicked
 document.addEventListener("DOMContentLoaded", function () {
-    const submitInput = document.getElementById("vote-submit"); // The submit input
+    const submitInput = document.getElementById("vote-submit");
     const radioButtons = document.querySelectorAll('input[name="inlineRadioOptions"]');
 
-    // Initially disable the input
+// Initially disable the input
     submitInput.disabled = true;
 
     // Enable it when a radio button is clicked
@@ -398,5 +398,3 @@ const voteForm = document.getElementById("vote-form");
     voteForm.addEventListener("submit", function (event) {
         event.preventDefault(); // Prevent default form submission
 });
-
-
