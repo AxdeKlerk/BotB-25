@@ -17,11 +17,23 @@ This was incredibly useful as it gave me a full understanding of each user exper
 ### 1.1 HTML and CSS Code Validation
 
 I used the [W3C Validator website to validate all my HTML](https://validator.w3.org/) and [W3C Validator](https://jigsaw.w3.org/css-validator/) CSS files, as shown below with the corresponding screenshots, as recommended by the Code Institutes' course material:
-| Page | URL | Screenshot| Notes |
+| Page | URL | Score| Notes |
 |----------|----------|----------|----------|
-| Home    | [W3C HTML](https://validator.w3.org/)   | screenshot   | Pass: No Errors   |
-| Battle   | [W3C HTML](https://validator.w3.org/)   | screenshot   | Pass: No Errors   |
-| style.css   | [W3C CSS](https://jigsaw.w3.org/css-validator/)   | screenshot   | Pass: No Errors   |
+| Home    | [W3C HTML](https://validator.w3.org/)   | 100%   | Pass: No Errors   |
+| Battle   | [W3C HTML](https://validator.w3.org/)   | 100%   | Pass: No Errors   |
+| style.css   | [W3C CSS](https://jigsaw.w3.org/css-validator/)   | 100%   | Pass: No Errors   |
+
+#### 1.1.1 Home Page
+
+![W3C Home page html validation](assets/imgs/documentation/index-html-validation.png)
+
+#### 1.1.2
+
+![W3C Battle page html validation](assets/imgs/documentation/play-html-validation.png)
+
+#### 1.1.3
+
+![W3C css validation](assets/imgs/documentation/css-validation.png)
 
 ### 1.2 Javascript Validation
 
@@ -39,7 +51,19 @@ For my Javascript I used the [JShint Validator](https://jshint.com/) to validate
 
  - An *"Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')"* was highlighted under performance which meant that JavaScript was trying to attach an event listener to an element that doesn't exist (null). At first, I thought that this was an easy fix by moving the bandData array to above the functions and moving the functions for the iframe population to below the functions for random bandData popultaion of cards. However, this did not fix the error.
   
-  What I missed was that *"document.getElementById("#go").addEventListener("click", function ()[...]"* was trying to select the elementID "#go" before it is loaded in the DOM. To fix this I wrapped the script into 'DOMContentLoaded' to ensure that the script runs only after the DOM is fully loaded. This worked.
+  - What I missed was that *"document.getElementById("#go").addEventListener"click", function ()[...]"* was trying to select the elementID "#go" before it is loaded in the DOM. To fix this I wrapped the script into 'DOMContentLoaded' to ensure that the script runs only after the DOM is fully loaded. This worked.
+
+  After running Lighthouse at the completion point of my project my index.html and my play.html pages both passed with 100% as seen below:
+
+  #### 2.1 Lighthouse index.html
+
+  ![Lighthouse score for index.html](assets/imgs/documentation/lighthouse-index-page.png)
+
+  Please see discusion around the performance score below in Bugs Unresolved section.
+
+  #### 2.2 Lighthouse play.html
+
+  ![Lighhouse score for play.html](assets/imgs/documentation/lighthouse-play-page.png)
 
 ## 3. Debugging
 
