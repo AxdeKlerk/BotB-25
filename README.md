@@ -2,7 +2,9 @@
 
 This is where guitars wail, amps crackle and drummers hit harder than your morning coffee. It’s not just a competition – it’s a **rock ‘n roll battlefield** where the loudest, most electrifying, emerging rock bands fight for glory.
 
-![responsive views on all devices](assets/imgs/documentation/responsive-views.png)
+![responsive views of home page on all devices](assets/imgs/documentation/responsive-views.png)
+
+![responsive views of battle page on all devices](assets/imgs/documentation/responsive-views-battle-page.png)
 
 ## 1. Introduction
 
