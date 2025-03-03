@@ -318,9 +318,9 @@ document.addEventListener("DOMContentLoaded", () => {
         goButton.addEventListener("click", function() {
         const selectedBands = getRandomBands(bandData, 4); // Selects 4 random bands
         populateCardsAndVotes(selectedBands); // Update Bootstrap cards
-        })
+        });
     }
-})
+});
 
 function getRandomBands(bands, count) {
     let shuffled = [...bands].sort(() => 0.5 - Math.random()); // Shuffle array
@@ -377,16 +377,22 @@ const videoModal = document.getElementById("videoModal");
 
 // Form functionality
 document.addEventListener("DOMContentLoaded", function () {
-    const submitInput = document.getElementById("vote-submit");
+    const submitInput = document.querySelector("#vote-submit");
     const radioButtons = document.querySelectorAll('input[name="inlineRadioOptions"]');
     const goButton = document.getElementById("go-btn");
     
-// Initially disable the radio buttons and submit input
+// Initially disable the radio buttons, vote button and enable the go button
     radioButtons.forEach(radio => radio.disabled = true);
     submitInput.disabled = true;
     goButton.disabled = false;
 
-// Enable the radio buttons when band names are populated
+    if (submitInput) {
+        submitInput.disabled = true;
+    } else {
+        console.error('Element not found');
+    }
+
+// Enable the radio buttons when band names are populated and disable the go button
     goButton.addEventListener("click", function() {
         radioButtons.forEach(radio => radio.disabled = false);
         goButton.disabled = true; // Disable goButton after it has been clicked
