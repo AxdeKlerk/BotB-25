@@ -314,7 +314,7 @@ const bandData = [
 //Function to get 4 randomly selected bands form the above array when clicking the "Go" button
 // Update Bootstrap cards
 document.addEventListener("DOMContentLoaded", () => {
-    const goButton = document.querySelector("#go-btn");
+    const goButton = document.getElementById("go-btn");
     if (goButton) {
         goButton.addEventListener("click", function() {
         const selectedBands = getRandomBands(bandData, 4);
@@ -353,7 +353,7 @@ function populateCardsAndVotes(bands) {
 )};
 
 // Stops the default behavior of the play buttons removing the blue background when clicked
-document.querySelectorAll(".btn-play").forEach((button) => {
+document.querySelectorAll(".btn-primary, .btn").forEach((button) => {
     button.addEventListener("click", function(event) {
         event.preventDefault();
 
@@ -380,12 +380,12 @@ document.querySelectorAll(".btn-play").forEach((button) => {
 }
 
 // Form functionality
-// Initially disable the radio buttons, vote button and enable the go button
-// Enable the radio buttons when band names are populated and disable the go button
+// Initially disable the radio buttons, vote button, launch buttons and enable the go button
+// Enable the radio and launch buttons when band names are populated and disable the go button
 // Disable goButton after it has been clicked
 // Enable voting button when a radio button is clicked
 document.addEventListener("DOMContentLoaded", function () {
-    const submitInput = document.querySelector("#vote-submit");
+    const submitInput = document.getElementById("vote-submit");
     const radioButtons = document.querySelectorAll('input[name="inlineRadioOptions"]');
     const goButton = document.getElementById("go-btn");
     radioButtons.forEach(radio => radio.disabled = true);
@@ -393,7 +393,7 @@ document.addEventListener("DOMContentLoaded", function () {
         goButton.disabled = false;
         goButton.addEventListener("click", function() {
             radioButtons.forEach(radio => radio.disabled = false);
-            goButton.disabled = true; 
+            goButton.disabled = true;
     });        
     }
     if (submitInput) {
