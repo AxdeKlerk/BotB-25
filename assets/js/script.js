@@ -388,8 +388,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (submitInput) {
         submitInput.disabled = true;
-    } else {
-        console.error('Element not found');
     }
 
 // Enable the radio buttons when band names are populated and disable the go button
