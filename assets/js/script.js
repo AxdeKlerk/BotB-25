@@ -314,7 +314,7 @@ const bandData = [
 //Function to get 4 randomly selected bands form the above array when clicking the "Go" button
 // Update Bootstrap cards
 document.addEventListener("DOMContentLoaded", () => {
-    const goButton = document.querySelector("#go-btn");
+    const goButton = document.getElementById("go-btn");
     if (goButton) {
         goButton.addEventListener("click", function() {
         const selectedBands = getRandomBands(bandData, 4);
@@ -385,7 +385,7 @@ document.querySelectorAll(".btn-play").forEach((button) => {
 // Disable goButton after it has been clicked
 // Enable voting button when a radio button is clicked
 document.addEventListener("DOMContentLoaded", function () {
-    const submitInput = document.querySelector("#vote-submit");
+    const submitInput = document.getElementById("vote-submit");
     const radioButtons = document.querySelectorAll('input[name="inlineRadioOptions"]');
     const goButton = document.getElementById("go-btn");
     radioButtons.forEach(radio => radio.disabled = true);
