@@ -313,7 +313,7 @@ const bandData = [
 
 //Function to get 4 randomly selected bands form the above array when clicking the "Go" button
 document.addEventListener("DOMContentLoaded", () => {
-    const goButton = document.querySelector("#go-btn");
+    const goButton = document.getElementById("go-btn");
     if (goButton) {
         goButton.addEventListener("click", function() {
         const selectedBands = getRandomBands(bandData, 4); // Selects 4 random bands
@@ -377,7 +377,7 @@ const videoModal = document.getElementById("videoModal");
 
 // Form functionality
 document.addEventListener("DOMContentLoaded", function () {
-    const submitInput = document.querySelector("#vote-submit");
+    const submitInput = document.getElementById("vote-submit");
     const radioButtons = document.querySelectorAll('input[name="inlineRadioOptions"]');
     const goButton = document.getElementById("go-btn");
     
