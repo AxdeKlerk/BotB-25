@@ -311,25 +311,27 @@ const bandData = [
     },
 ];
 
-//Function to get 4 randomly selected bands form the above array when clicking the "Go" button
+//Popluates cards with the 4 randomly selected bands when clicking the "Go" button
 document.addEventListener("DOMContentLoaded", () => {
     const goButton = document.getElementById("go-btn");
     if (goButton) {
         goButton.addEventListener("click", function() {
-        const selectedBands = getRandomBands(bandData, 4); // Selects 4 random bands
-        populateCardsAndVotes(selectedBands); // Update Bootstrap cards
+        const selectedBands = getRandomBands(bandData, 4);
+        populateCardsAndVotes(selectedBands);
         });
     }
 });
 
+//Function to select 4 random bands
 function getRandomBands(bands, count) {
-    let shuffled = [...bands].sort(() => 0.5 - Math.random()); // Shuffle array
-    return shuffled.slice(0, count); // Get the first 'count' elements
+    let shuffled = [...bands].sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, count);
 }
 
+//Function to populate the cards with the band data
 function populateCardsAndVotes(bands) {
-    const cardElements = document.querySelectorAll(".card"); //Gets all card elements
-    const formElements = document.querySelectorAll(".vote"); // Gets all vote elements
+    const cardElements = document.querySelectorAll(".card");
+    const formElements = document.querySelectorAll(".vote");
 
     bands.forEach((bandData, index) => {
     if(cardElements[index]) {
@@ -339,11 +341,11 @@ function populateCardsAndVotes(bands) {
         const launchButton = cardElements[index].querySelector(".btn-play");
         const voteBand = formElements[index].querySelector(".band-name");
 
-        if (titleElement) titleElement.textContent = bandData.bandName; //Updates band name
-        if (songElement) songElement.textContent = bandData.songTitle; // Updates son title
-        if (originElement) originElement.textContent = bandData.bandOrigin; // Updates band origin
-        if (launchButton) launchButton.dataset.video = bandData.youtubeVideo; // Updates Video
-        if (voteBand) voteBand.textContent = bandData.bandName; //Updates band name in vote form
+        if (titleElement) titleElement.textContent = bandData.bandName;
+        if (songElement) songElement.textContent = bandData.songTitle;
+        if (originElement) originElement.textContent = bandData.bandOrigin;
+        if (launchButton) launchButton.dataset.video = bandData.youtubeVideo;
+        if (voteBand) voteBand.textContent = bandData.bandName;
         }
     }
 )};
@@ -399,21 +401,19 @@ document.addEventListener("DOMContentLoaded", function () {
     // Enable play buttons on "Go" click
     goButton.addEventListener("click", function() {
         launchButtons.forEach(button => {
-            button.setAttribute("data-bs-toggle", "modal"); // Restore modal functionality
-            button.style.pointerEvents = "auto"; // Allow clicks again
-            button.style.opacity = "1"; // Restore normal appearance
+            button.setAttribute("data-bs-toggle", "modal");
+            button.style.pointerEvents = "auto";
+            button.style.opacity = "1"; 
         });
     });
     
-
 // Enable the radio buttons when band names are populated and disable the go button
     goButton.addEventListener("click", function() {
         radioButtons.forEach(radio => radio.disabled = false);
-        goButton.disabled = true; // Disable goButton after it has been clicked
+        goButton.disabled = true;
     });
 
-
-// Enable voting button when a radio button is clicked
+// Enable vote button when a radio button is clicked
     radioButtons.forEach(radio => {
         radio.addEventListener("change", function () {
             submitInput.disabled = false;
@@ -425,6 +425,6 @@ document.addEventListener("DOMContentLoaded", function () {
 const voteForm = document.getElementById("vote-form");
 if (voteForm) {
     voteForm.addEventListener("submit", function (event) {
-        event.preventDefault(); // Prevent default form submission
+        event.preventDefault();
     });
 }
