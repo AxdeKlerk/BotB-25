@@ -312,56 +312,51 @@ const bandData = [
 ];
 
 //Function to get 4 randomly selected bands form the above array when clicking the "Go" button
-// Update Bootstrap cards
 document.addEventListener("DOMContentLoaded", () => {
-    const goButton = document.getElementById("go-btn");
+    const goButton = document.querySelector("#go-btn");
     if (goButton) {
         goButton.addEventListener("click", function() {
-        const selectedBands = getRandomBands(bandData, 4);
-        populateCardsAndVotes(selectedBands);
+        const selectedBands = getRandomBands(bandData, 4); // Selects 4 random bands
+        populateCardsAndVotes(selectedBands); // Update Bootstrap cards
         });
     }
 });
 
-// Shuffle array and get the first 4 elements
 function getRandomBands(bands, count) {
-    let shuffled = [...bands].sort(() => 0.5 - Math.random()); 
-    return shuffled.slice(0, count);
+    let shuffled = [...bands].sort(() => 0.5 - Math.random()); // Shuffle array
+    return shuffled.slice(0, count); // Get the first 'count' elements
 }
-//Gets all card elements and updates the content with the band data
-//Updates the video dataset
-//Updates the band name in the vote form
+
 function populateCardsAndVotes(bands) {
-    const cardElements = document.querySelectorAll(".card");
-    const formElements = document.querySelectorAll(".vote");
+    const cardElements = document.querySelectorAll(".card"); //Gets all card elements
+    const formElements = document.querySelectorAll(".vote"); // Gets all vote elements
 
     bands.forEach((bandData, index) => {
     if(cardElements[index]) {
-    const titleElement = cardElements[index].querySelector(".card-title");
-    const songElement = cardElements[index].querySelector(".song-title");
-    const originElement = cardElements[index].querySelector(".origin");
-    const launchButton = cardElements[index].querySelector(".btn-play");
-    const voteBand = formElements[index].querySelector(".band-name");
+        const titleElement = cardElements[index].querySelector(".card-title");
+        const songElement = cardElements[index].querySelector(".song-title");
+        const originElement = cardElements[index].querySelector(".origin");
+        const launchButton = cardElements[index].querySelector(".btn-play");
+        const voteBand = formElements[index].querySelector(".band-name");
 
-    if (titleElement) titleElement.textContent = bandData.bandName; 
-    if (songElement) songElement.textContent = bandData.songTitle; 
-    if (originElement) originElement.textContent = bandData.bandOrigin; 
-    if (launchButton) launchButton.dataset.video = bandData.youtubeVideo; 
-    if (voteBand) voteBand.textContent = bandData.bandName; 
-    }
+        if (titleElement) titleElement.textContent = bandData.bandName; //Updates band name
+        if (songElement) songElement.textContent = bandData.songTitle; // Updates son title
+        if (originElement) originElement.textContent = bandData.bandOrigin; // Updates band origin
+        if (launchButton) launchButton.dataset.video = bandData.youtubeVideo; // Updates Video
+        if (voteBand) voteBand.textContent = bandData.bandName; //Updates band name in vote form
+        }
     }
 )};
 
 // Stops the default behavior of the play buttons removing the blue background when clicked
-document.querySelectorAll(".btn-primary, .btn").forEach((button) => {
+document.querySelectorAll(".btn-play").forEach((button) => {
     button.addEventListener("click", function(event) {
         event.preventDefault();
 
 // Gets Youtube Video dataset and inserts into appended iframe
-//Reset iframe content when closed
-    const youtubeVideo = document.getElementById("youtube-video");
-    const source = event.target.dataset.video;
-    const iframe = document.createElement("iframe");
+const youtubeVideo = document.getElementById("youtube-video");
+const source = event.target.dataset.video;
+const iframe = document.createElement("iframe");
     iframe.setAttribute("src", source);
     iframe.setAttribute(
         "allow",
@@ -372,33 +367,39 @@ document.querySelectorAll(".btn-primary, .btn").forEach((button) => {
         });
     });
 
-    const videoModal = document.getElementById("videoModal");
+//Reset iframe content when closed
+const videoModal = document.getElementById("videoModal");
     if(videoModal) {
     videoModal.addEventListener("hide.bs.modal", function () {
     document.getElementById("video-frame").remove();
-    });
+  });
 }
 
 // Form functionality
-// Initially disable the radio buttons, vote button, launch buttons and enable the go button
-// Enable the radio and launch buttons when band names are populated and disable the go button
-// Disable goButton after it has been clicked
-// Enable voting button when a radio button is clicked
 document.addEventListener("DOMContentLoaded", function () {
-    const submitInput = document.getElementById("vote-submit");
+    const submitInput = document.querySelector("#vote-submit");
     const radioButtons = document.querySelectorAll('input[name="inlineRadioOptions"]');
     const goButton = document.getElementById("go-btn");
+    
+// Initially disable the radio buttons, vote button and enable the go button
     radioButtons.forEach(radio => radio.disabled = true);
-    if (goButton) {
-        goButton.disabled = false;
-        goButton.addEventListener("click", function() {
-            radioButtons.forEach(radio => radio.disabled = false);
-            goButton.disabled = true;
-    });        
-    }
+    submitInput.disabled = true;
+    goButton.disabled = false;
+
     if (submitInput) {
         submitInput.disabled = true;
+    } else {
+        console.error('Element not found');
     }
+
+// Enable the radio buttons when band names are populated and disable the go button
+    goButton.addEventListener("click", function() {
+        radioButtons.forEach(radio => radio.disabled = false);
+        goButton.disabled = true; // Disable goButton after it has been clicked
+    });
+
+
+// Enable voting button when a radio button is clicked
     radioButtons.forEach(radio => {
         radio.addEventListener("change", function () {
             submitInput.disabled = false;
@@ -407,10 +408,9 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // Reset the form after submission
-// Prevent default form submission
-    const voteForm = document.getElementById("vote-form");
-    if (voteForm) {
-        voteForm.addEventListener("submit", function (event) {
-            event.preventDefault(); 
+const voteForm = document.getElementById("vote-form");
+if (voteForm) {
+    voteForm.addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent default form submission
     });
-    }
+}
