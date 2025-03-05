@@ -380,17 +380,31 @@ document.addEventListener("DOMContentLoaded", function () {
     const submitInput = document.getElementById("vote-submit");
     const radioButtons = document.querySelectorAll('input[name="inlineRadioOptions"]');
     const goButton = document.getElementById("go-btn");
+    const launchButtons = document.querySelectorAll(".btn-play");
     
-// Initially disable the radio buttons, vote button and enable the go button
+// Initially disable the radio buttons and the vote button
     radioButtons.forEach(radio => radio.disabled = true);
-    submitInput.disabled = true;
     goButton.disabled = false;
+    submitInput.disabled = true;
 
-    if (submitInput) {
-        submitInput.disabled = true;
-    } else {
-        console.error('Element not found');
+    //Initially disable the launch buttons by removing functionality of the modal
+    if (launchButtons.length > 0) {
+        launchButtons.forEach(button => {
+            button.removeAttribute("data-bs-toggle");
+            button.style.pointerEvents = "none";
+            button.style.opacity = "0.5";
+        });
     }
+    
+    // Enable play buttons on "Go" click
+    goButton.addEventListener("click", function() {
+        launchButtons.forEach(button => {
+            button.setAttribute("data-bs-toggle", "modal"); // Restore modal functionality
+            button.style.pointerEvents = "auto"; // Allow clicks again
+            button.style.opacity = "1"; // Restore normal appearance
+        });
+    });
+    
 
 // Enable the radio buttons when band names are populated and disable the go button
     goButton.addEventListener("click", function() {

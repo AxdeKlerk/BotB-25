@@ -186,13 +186,6 @@ h3 {
 .btn-play {
     margin-top: auto;
 }
-#play-btn:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-    color: #ff0000;
-    background-color: #F5EBDB;
-    border: none;
-}
 
 /*Voting Form*/
 .vote-form {
