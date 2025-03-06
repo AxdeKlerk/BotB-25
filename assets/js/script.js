@@ -386,10 +386,11 @@ document.addEventListener("DOMContentLoaded", function () {
     
 // Initially disable the radio buttons and the vote button
     radioButtons.forEach(radio => radio.disabled = true);
-    goButton.disabled = false;
+    if (submitInput) {
     submitInput.disabled = true;
+    }
 
-    //Initially disable the launch buttons by removing functionality of the modal
+//Initially disable the launch buttons by removing functionality of the modal
     if (launchButtons.length > 0) {
         launchButtons.forEach(button => {
             button.removeAttribute("data-bs-toggle");
@@ -398,7 +399,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
     
-    // Enable play buttons on "Go" click
+// Enable play buttons on "Go" click
     goButton.addEventListener("click", function() {
         launchButtons.forEach(button => {
             button.setAttribute("data-bs-toggle", "modal");
