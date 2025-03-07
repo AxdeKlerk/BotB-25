@@ -85,29 +85,67 @@ For ease and simplicity I chose Geist Mono with a monospaced appearance, through
 
 #### 7.1.3 Title
 
+![home page title](assets/imgs/documentation/title.png)
+
 #### 7.1.4 The Battle and How Buttons
+
+![battle and how buttons](assets/imgs/documentation/buttons.png)
 
 #### 7.1.5 The How Modal
 
+![alt text](assets/imgs/documentation/how-modal.png)
+
 #### 7.1.6 The About Section
+
+![about image](assets/imgs/documentation/about-image.png)
 
 #### 7.1.7 The Battle and How Buttons
 
 ### 7.2 The Battle Page 
 
+![battle page](assets/imgs/documentation/battle-page.png)
+
 #### 7.2.1 Navbar
+
+![battle page expanded navbar](assets/imgs/documentation/nav-bar-2.png)
 
 #### 7.2.2 Heading
 
+![battle page heading](assets/imgs/documentation/battle-heading.png)
+
+#### 7.2.3 Go, Launch and Vote buttons
+
+![unseleect go button](assets/imgs/documentation/go-btn.png) ![selected go button](assets/imgs/documentation/got-btn-clicked.png)
+
+![unselectable launch buttons](assets/imgs/documentation/launch-btns.png)
+
+![launch buttons for selection](assets/imgs/documentation/launch-buttons-for-selection.png)
+
+![unselectable vote button](assets/imgs/documentation/vote-btn.png) ![vote button for selection](assets/imgs/documentation/vote-btn-2.png)
+
 #### 7.2.3 The Battle Cards
+
+![unpopulated battle card](assets/imgs/documentation/battle-card-1.png) ![populated battle card](assets/imgs/documentation/battle-card-2.png)
 
 #### 7.2.4 The Video Pop-Up
 
+![video pop-up](assets/imgs/documentation/pop-up-video.png)
+
 #### 7.2.3 The Voting Form
+
+![unpopulated voting form](assets/imgs/documentation/voting-form-blank.png)
+
+![populated voting form](assets/imgs/documentation/voting-form-populated.png)
+
+![selected voting form](assets/imgs/documentation/voting-form-selected.png)
 
 #### 7.3 The Thank You Page
 
+![thank you page](assets/imgs/documentation/thank-you-page.png)
+
 #### 7.4 The 404 Page
+
+![404 page](assets/imgs/documentation/404-page.png)
 
 ## 8. Testing and Debugging
 
