@@ -206,9 +206,9 @@ The only constraint for the above to be included was time, as previously alluded
 
 The following tools and technologies were used:
 
-- [HTML](https://en.wikipedia.org/wiki/HTML) used to build main site content
-- [CSS](https://en.wikipedia.org/wiki/CSS) for main content styling
-- [JavaScript](https://simple.wikipedia.org/wiki/JavaScript) for all interactivity within the website
+- [HTML](https://en.wikipedia.org/wiki/HTML) - used to build main site content
+- [CSS](https://en.wikipedia.org/wiki/CSS) - used for main content styling
+- [JavaScript](https://simple.wikipedia.org/wiki/JavaScript) - used for all interactivity within the website
 - *Google* - my starting point for understanding and searching for answers to my questions before other programmes were used
 - *Google Fonts* - for typology
 - *Coolors.co* - for the colour picker
@@ -225,6 +225,7 @@ The following tools and technologies were used:
 - *Chat-GBT* - An AI tool used for understanding where things went wrong, how to fix code and generally used for deeper understanding of JavaScript
 - *Markdown Guide* - for the markdown references
 - *Slack Overflow* - for general queries
+- *MSWord* - used for grammar and spelling checking
 
 ## 12. Acknowledgements
 
