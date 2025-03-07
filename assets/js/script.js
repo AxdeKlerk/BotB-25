@@ -1,4 +1,6 @@
-//Band data
+/**
+* Band data
+*/
 const bandData = [
     {
         id: 1,

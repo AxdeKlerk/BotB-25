@@ -38,12 +38,10 @@ I used the [W3C Validator website to validate all my HTML](https://validator.w3.
 ### 1.2 Javascript Validation
 
 For my Javascript I used the [JShint Validator](https://jshint.com/) to validate my js files, as shown below with the corresponding screenshots, as recommended by the Code Institutes' course material:
-| Page | URL | Screenshot| Notes |
+| Page | URL | Score| Notes |
 |----------|----------|----------|----------|
-| script.js   | [JShint](https://jshint.com/)   | screenshot   | Pass: No Errors   |
+| script.js   | [JShint](https://jshint.com/)   | 100%   | Pass: No Errors   |
  
-
-### 1.3 Browswer Compatibility
 
 ### 2. Lighthouse
 
@@ -53,7 +51,7 @@ For my Javascript I used the [JShint Validator](https://jshint.com/) to validate
   
   - What I missed was that *"document.getElementById("#go").addEventListener"click", function ()[...]"* was trying to select the elementID "#go" before it is loaded in the DOM. To fix this I wrapped the script into 'DOMContentLoaded' to ensure that the script runs only after the DOM is fully loaded. This worked.
 
-  After running Lighthouse at the completion point of my project my index.html and my play.html pages both passed with 100% as seen below:
+  After running Lighthouse at the completion point of my project my index.html and my play.html pages both passed as seen below:
 
   #### 2.1 Lighthouse index.html
 
@@ -87,15 +85,24 @@ However, it was during my second meeting with my mentor that he explained to me 
 
 Complexity was added because I had alphabetised my bandData array so I tried to replace 'similar for similar' (alphabetically) so as not have to rejig the id numbering and bandData placement in the array. This wan't a necesity for the functionality of the website, but I deemed it as such to satisfy my need for order and the attention to detail that it enlists.
 
-2.4
+2.4 
 
-
-----------********
+Note: this list is not exhaustive and the bugs referenced above serve merely to show the most difficult issues faced during this project. There where many smaller bugs that caused head-scratching moments, but were fixed by referencing and searching *Google*, *Perplaxity*, *Chat-GBT*, *Code Institute*'s course material and the *Slack* community along with *W3C Skool*, *Bootstrap*, *GitHub* and *MDN Web* documentation.
 
 ## 3. Bugs Unresolved
 
-Possibly, the greatest 'bug' that will always remain unresolved is my own imposter-syndrom. Having completed the course material I was left feeling like there were elements in the course that I did not understand, leaving large gaps in my learning. Following a conversation with my mentor, he suggested that the only way to learn was to tackle the subject matter 'head-on' and just keep practicing. 
+3.1 Possibly, the greatest 'bug' that will always remain unresolved is my own imposter-syndrom. Having completed the course material I was left feeling like there were elements in the course that I did not understand, leaving large gaps in my learning. Following a conversation with my mentor, he suggested that the only way to learn was to tackle the subject matter 'head-on' and just keep practicing. 
 
-Although, this was extremely good advice I still struggled with self-doubt throughtout this project. In order to over-come this enough to complete the project I joined the Slack 'Imposter Syndrome' group. Even though I didn't contribute much due to feeling like an imposter in the group, it was encouraging to see others struggling and their coping techniques and mechanisms. The greatest piece of advice came from a newsletter I subscribe to by Sahil Bloom, where he adopted a technique given to him by a friend of his to have a 'Coaching Session' With yourself by emailing yourself and then giving yourself advise. This I practised sporadically until it became inbedded into my daily routine. 
+Although, this was extremely good advice I still struggled with self-doubt throughtout this project. In order to over-come this enough to complete the project I joined the Slack 'Imposter Syndrome' group. Even though I didn't contribute much due to feeling like an imposter in the group, it was encouraging to see others struggling and their coping techniques and mechanisms. 
 
-coulnd't change img to images after mentor meeting
+The greatest piece of advice came from a newsletter I subscribe to by *Sahil Bloom*, where he adopted a technique given to him by a friend of his to have a 'Coaching Session' With yourself by emailing yourself and then giving yourself advise. This I practised sporadically until it became inbedded into my daily routine. 
+
+3.2 An uncaught error returns on the Home page due to the eventListener for the goButton that is not on the home page:
+
+![console error for eventListener](assets/imgs/documentation/console.log.5-error-on-js-line-429.png)
+
+This error was first noticed when I ran the Lighthouse analyser. Unfortunately, I ran out of time to fix this due to time pressures, unavoidable family commitments and needing to submit my project on time.
+
+3.3 The final unresolved bug was the name of my image file  under my assets directory. During my final meeting with my mentor  he stated that all my image names needed to be changed from 'imgs' to 'images' as 'imgs' is not accepted as good practice. After the meeting I went through and changed the names of all my 'imgs' to 'images', had to redo it after going back to a previous commit because of an error with my js code that I needed to be fixed. This was only done at the time of writing this section as I had forgotten that they were also reverted when I went back to an old commit.
+
+but could not change the directory name 
