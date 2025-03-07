@@ -204,9 +204,12 @@ The only constraint for the above to be included was time, as previously alluded
 
 ## 11. Credits
 
-The following media was used:
+The following tools and technologies were used:
 
-- *Google* - my starting point for understanding and searching answers to my questions before other programmes were used
+- [HTML](https://en.wikipedia.org/wiki/HTML) used to build main site content
+- [CSS](https://en.wikipedia.org/wiki/CSS) for main content styling
+- [JavaScript](https://simple.wikipedia.org/wiki/JavaScript) for all interactivity within the website
+- *Google* - my starting point for understanding and searching for answers to my questions before other programmes were used
 - *Google Fonts* - for typology
 - *Coolors.co* - for the colour picker
 - *W3schools* - a constant source of reference for all html, CSS and BootStrap explanations
