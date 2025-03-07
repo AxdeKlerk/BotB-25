@@ -32,15 +32,28 @@ The target Audience for this website are fellow rock and metal heads and fans. M
 
 ## 5. Goals
 
-To create a website that is visually appealing, enjoyable to engage with, light-hearted and simple to use so as not to detract from the aim and objective of the website: to discover new music.
+To create a website that is visually appealing, enjoyable to engage with, light-hearted and simple to use so as not to detract from the aim and objective of the website: to discover new music. But most of all, to be entertaining.
 
 ## 6. Planning and Development
 
-The idea came about during my initial meeting with my Mentor, Richard Wells, when discussing the type of interactivity, I found lacking within my favourite musical taste and the type of interactivity I would enjoy using as I am not a game player.
+The idea came about during my initial meeting with my Mentor, Richard Wells, when discussing the type of interactivity, I found lacking within my favourite musical taste and the type of interactivity I would enjoy using, as I am not a game player.
 
 ### 6.1 Wire Frames
 
-### 6.2 Colour Pallet
+I decided to build the website from a mobile with a width of 320px so that I would only need to scale up for responsiveness. This resulted in fewer media query scaling and styling elements and meant that I only had to focus on styles once without the complexity of issues I had in project one.
+
+I played around a lot with the initial wireframe to try and design the website to make it as appealing as possible with the end user in mind. I continued to adapt the wireframe as I went along and settled on this one:
+
+#### 6.1.1 Mobile Wireframe
+
+![mobile wireframe](assets/imgs/documentation/mobile-wireframe.png)
+#### 6.1.2 Large Screen Wireframe
+
+For the large and extra large screens I want the battle page on one screen without having to scroll up and down to participate. This decision to focus on the larger screen was to limit the size of the different elements and also set the maximum width to 1200px.
+
+![large screen wireframe](assets/imgs/documentation/large-screen-wireframe.png)
+
+### 6.2 Colour Palette
 
 The colour palette chosen is the typical colour scheme of the rock and metal scene: red , white and black. However, I change the 'white' for a softer shade of light grey that isn't so stark on the eyes and doesn't cause blurring and bleeding into the black or red. The colours chosen were:
 
@@ -48,31 +61,47 @@ The colour palette chosen is the typical colour scheme of the rock and metal sce
 
 I found the colour using [coolors.co](https://coolors.co/) website.
 
-I also included the dark grey for the Navbar to make it stand out against the black background with just enough contrast so that it stood out just enough without making it a stand-out feature, as the navigation of the website is quite self-explanatory.
+I also included the dark grey for the Navbar to make it stand out against the black background with just enough contrast so that it stood out without making it a feature, as the navigation of the website is quite self-explanatory.
 
 ### 6.3 Typography
 
 For ease and simplicity I chose Geist Mono with a monospaced appearance, throughout, for the typography as found on [Google Fonts](https://fonts.google.com/). AS the designer I prefer this text for its simplicity and "old school" typewritter style effect, it is easy to read and nostalgic quality:
 
-![Geist Mono Typography](<assets/imgs/documentation/Geist Mono.png>)
+![example of Geist Mono Typography](<assets/imgs/documentation/Geist Mono.png>)
 
 ## 7. Features
 
-7.1 The Landing Page
+### 7.1 The Landing Page
 
-7.1.1 The Navbar
+![home page](assets/imgs/documentation/home-page.png)
 
-7.1.2 The Hero Image
+#### 7.1.1 The Navbar
 
-7.1.3 The About Section
+![nav bar expanded](assets/imgs/documentation/nav-bar.png)
 
-7.1.4 The Battle and How Buttons
+#### 7.1.2 The Hero Image
+
+![hero image](assets/imgs/documentation/hero-image.png)
+
+#### 7.1.3 Title
+
+#### 7.1.4 The Battle and How Buttons
+
+#### 7.1.5 The How Modal
+
+#### 7.1.6 The About Section
+
+#### 7.1.7 The Battle and How Buttons
 
 7.2 The Battle Page 
 
-7.2.1 The Battle Cards
+7.2.1 Navbar
 
-7.2.2 The Video Pop-Up
+7.2.2 Heading
+
+7.2.3 The Battle Cards
+
+7.2.4 The Video Pop-Up
 
 7.2.3 The Voting Form
 
