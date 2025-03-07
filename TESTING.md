@@ -74,7 +74,9 @@ However, it was during my second meeting with my mentor that he explained to me 
 
 Complexity was added because I had alphabetised my bandData array so I tried to replace 'similar for similar' (alphabetically) so as not have to rejig the id numbering and bandData placement in the array. This wasn’t a necessity for the functionality of the website, but I deemed it as such to satisfy my need for order and the attention to detail that it enlists.
 
-2.4 After reviewing the comments to my first project one of the issues highlighted was the naming of my commit comments. I had a discussion with my fellow students about this and three of the group members had had the same comment. It was *Steve Powell* who mentioned that his mentor had suggested using the phrase "When applied my coment will show..." before the actual commit message to make it make sense. I also read the *GitHub* documentation around commit comments that stated that comments don't have to be in shorthand, but rather using fuller sentences and a line space to be able to list all the changes rather than only commenting on the major change. 
+2.4 After reviewing the comments to my first project one of the issues highlighted was the naming of my commit comments. I had a discussion with my fellow students about this and three of the group members had had the same comment. It was *Steve Powell* who mentioned that his mentor had suggested using the phrase "When applied my coment will show..." before the actual commit message to make it make sense. I also read the *GitHub* documentation around commit comments that stated that comments don't have to be in shorthand, but rather using fuller sentences and a line space to be able to list all the changes rather than only commenting on the major change.
+
+![commit messages](assets/imgs/documentation/commit-messages.png)
 
 Unfortunately for this project, this only came at the end and near completion. However, the combination of both have been applied, albeit with a little error here and there while I try to get used to the new way of writing my commit messages.
 
