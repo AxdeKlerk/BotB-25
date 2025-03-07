@@ -57,7 +57,7 @@ For my Javascript I used the [JShint Validator](https://jshint.com/) to validate
 
   ![Lighthouse score for index.html](assets/imgs/documentation/lighthouse-index-page.png)
 
-  Please see discusion around the performance score below in Bugs Unresolved section.
+  Please see discusion around the performance score below in [Bugs Unresolved](#Lighthouse) section.
 
   #### 2.2 Lighthouse play.html
 
@@ -99,7 +99,7 @@ Although, this was extremely good advice I still struggled with self-doubt throu
 
 The greatest piece of advice came from a newsletter I subscribe to by *Sahil Bloom*, where he adopted a technique given to him by a friend of his to have a 'Coaching Session' With yourself by emailing yourself and then giving yourself advise. This I practised sporadically until it became inbedded into my daily routine. 
 
-3.2 An uncaught error returns on the Home page due to the eventListener for the goButton that is not on the home page:
+3.2 An uncaught error returned on the <a name="Lighthouse"></a> Lighthouse Report for the home page due to the eventListener for the goButton that is not on the home page:
 
 ![console error for eventListener](assets/imgs/documentation/console.log.5-error-on-js-line-429.png)
 
