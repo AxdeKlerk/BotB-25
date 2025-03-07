@@ -77,6 +77,10 @@ For ease and simplicity I chose Geist Mono with a monospaced appearance, through
 
 #### 7.1.1 The Navbar
 
+The navbar is a simple design that includes links to the battle page and the how to play modal. I decided to use an expandable hamburger style navbar without the links displayed, to keep the look and feel of the website simple.
+
+Although not shown, the navbar items are highlighted in red when hovered over.
+
 ![nav bar expanded](assets/imgs/documentation/nav-bar.png)
 
 #### 7.1.2 The Hero Image
@@ -101,11 +105,15 @@ For ease and simplicity I chose Geist Mono with a monospaced appearance, through
 
 #### 7.1.7 The Battle and How Buttons
 
+A 'Battle!' button and a 'How?' button have been included at the bottom of the about section as it was more pleasing on the eye, than when not included. It also provides a focus and points the user to either start a battle or learn how to play by directing the user to the respective buttons, without having to scroll up to find the ones located above.
+
 ### 7.2 The Battle Page 
 
 ![battle page](assets/imgs/documentation/battle-page.png)
 
 #### 7.2.1 Navbar
+
+The navbar found on the battle page follows the design of the one found on the home page with highlighted links when hovered over, once expanded. The difference is that on this page the link to the battle page has been replaced by a link to the home page.
 
 ![battle page expanded navbar](assets/imgs/documentation/nav-bar-2.png)
 
