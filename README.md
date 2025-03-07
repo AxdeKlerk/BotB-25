@@ -164,9 +164,38 @@ Furthermore, additional functionality could also be added to include the ability
 
 The only constraint for the above to be included was time, as previously alluded.
 
-## 11. Conclusion
+## 11. Credits
 
-## 12. Credits and Acknowledgements
+The following media was used:
+
+- *Google Fonts* - for typology
+- *Coolors.co* - for the colour picker
+- *W3schools* - a constant source of reference for all html, css and BootStrap explanations
+- *BootStrap Docs* - for reference to all BootStrap syntax
+- *Pexels* - for hero image
+- *Unsplash* - for about image and battle card's image
+- *Youtube* - for band videos
+- *Optimizilla* - for image compression
+- *W3C Markup Validation Service* - for html validation
+- *W3C CSS Validation Service* - for css validation
+- *Lighthouse* - for performance and accessibility testing
+- *Perplexity* - AI tool used for general queries and learning
+- *Chat-GBT* - AI tool used for understanding where things went wrong, how to fix code and generally used for deeper understanding of JavaScript
+- *Slack Overflow* - for general queries
+
+## 12. Acknowledgements
+
+This project could not have been possible without the support of the following people:
+
+Julia Brown - my loving partner who took over the reins at home and kept me fed and watered throughout,
+
+Julie, Paul, Thambiso, Matthew & Elaine - thank you for your, sometimes brutal, honesty although it was frustrating at times it most definitely gave me the drive to push harder,
+
+Richard Wells - Code Institute Mentor - who helped guide me through the process from start to finish,
+
+My team mates on my course - Steve Powell, Robert Lewis and Jordan Acomba who agreed to form a weekly study group on a Sunday evening, giving us time to discuss different aspects of our projects as we went along, and by no means least
+
+Barry (the dog) for reminding me that you can't be succesful at work without play times.
 
 
           
