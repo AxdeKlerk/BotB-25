@@ -311,7 +311,9 @@ const bandData = [
     },
 ];
 
-//Popluates cards with the 4 randomly selected bands when clicking the "Go" button
+/**
+ * Populates cards with the 4 randomly selected bands when clicking the "Go" button.
+ */
 document.addEventListener("DOMContentLoaded", () => {
     const goButton = document.getElementById("go-btn");
     if (goButton) {
@@ -322,13 +324,21 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-//Function to select 4 random bands
+/**
+ * Function to select 4 random bands.
+ * @param {Array} bands - The array of bands to select from.
+ * @param {number} count - The number of bands to select.
+ * @returns {Array} - An array of randomly selected bands.
+ */
 function getRandomBands(bands, count) {
     let shuffled = [...bands].sort(() => 0.5 - Math.random());
     return shuffled.slice(0, count);
 }
 
-//Function to populate the cards with the band data
+/**
+ * Function to populate the cards with the band data.
+ * @param {Array} bands - The array of bands to populate the cards with.
+ */
 function populateCardsAndVotes(bands) {
     const cardElements = document.querySelectorAll(".card");
     const formElements = document.querySelectorAll(".vote");
@@ -350,12 +360,16 @@ function populateCardsAndVotes(bands) {
     }
 )};
 
-// Stops the default behavior of the play buttons removing the blue background when clicked
+/**
+ * Stops the default behavior of the play buttons removing the blue background when clicked.
+ */
 document.querySelectorAll(".btn-play").forEach((button) => {
     button.addEventListener("click", function(event) {
         event.preventDefault();
 
-// Gets Youtube Video dataset and inserts into appended iframe
+/**
+ * Gets Youtube Video dataset and inserts into appended iframe.
+ */
 const youtubeVideo = document.getElementById("youtube-video");
 const source = event.target.dataset.video;
 const iframe = document.createElement("iframe");
@@ -369,7 +383,9 @@ const iframe = document.createElement("iframe");
         });
     });
 
-//Reset iframe content when closed
+/**
+ * Reset iframe content when closed.
+ */
 const videoModal = document.getElementById("videoModal");
     if(videoModal) {
     videoModal.addEventListener("hide.bs.modal", function () {
@@ -377,20 +393,26 @@ const videoModal = document.getElementById("videoModal");
   });
 }
 
-// Form functionality
+/**
+ * Form functionality.
+ */
 document.addEventListener("DOMContentLoaded", function () {
     const submitInput = document.getElementById("vote-submit");
     const radioButtons = document.querySelectorAll('input[name="inlineRadioOptions"]');
     const goButton = document.getElementById("go-btn");
     const launchButtons = document.querySelectorAll(".btn-play");
     
-// Initially disable the radio buttons and the vote button
+/**
+ * Initially disable the radio buttons and the vote button.
+ */
     radioButtons.forEach(radio => radio.disabled = true);
     if (submitInput) {
     submitInput.disabled = true;
     }
 
-//Initially disable the launch buttons by removing functionality of the modal
+/**
+ * Initially disable the launch buttons by removing functionality of the modal.
+ */
     if (launchButtons.length > 0) {
         launchButtons.forEach(button => {
             button.removeAttribute("data-bs-toggle");
@@ -399,7 +421,9 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
     
-// Enable play buttons on "Go" click
+/**
+ * Enable play buttons on "Go" click.
+ */
     goButton.addEventListener("click", function() {
         launchButtons.forEach(button => {
             button.setAttribute("data-bs-toggle", "modal");
@@ -408,13 +432,17 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
     
-// Enable the radio buttons when band names are populated and disable the go button
+/**
+ * Enable the radio buttons when band names are populated and disable the go button.
+ */
     goButton.addEventListener("click", function() {
         radioButtons.forEach(radio => radio.disabled = false);
         goButton.disabled = true;
     });
 
-// Enable vote button when a radio button is clicked
+/**
+ * Enable vote button when a radio button is clicked.
+ */
     radioButtons.forEach(radio => {
         radio.addEventListener("change", function () {
             submitInput.disabled = false;
@@ -422,7 +450,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-// Reset the form after submission
+/**
+ * Reset the form after submission.
+ */
 const voteForm = document.getElementById("vote-form");
 if (voteForm) {
     voteForm.addEventListener("submit", function (event) {

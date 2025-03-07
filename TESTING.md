@@ -79,6 +79,15 @@ After a quick Google search it returned the possibility that there was an error 
 
 2.2 The second major issue was trying to get the corresponding Youtube videos to play in the iframe pop-up when the Launch button was pressed.
 
+2.3 After I had managed to append the iframe in the Battle Modal that not all Youtube videos were playing. After spending a lot of time trying to identify which videos weren't playing and tying to find different videos for the bands affected, I turned to Google and then later *Perplexity* to find out why they weren't playing. 
+
+![Image of video not playing](assets/imgs/documentation/video-error.png)
+
+However, it was during my second meeting with my mentor that he explained to me that some bands don't like their videos embeded outside of Youtube and that they put a block on them to stop copyright infringement. This resulted in me going back to find 8 new bands that did allow their videos to be embeded and replace the ones previously identified.
+
+Complexity was added because I had alphabetised my bandData array so I tried to replace 'similar for similar' (alphabetically) so as not have to rejig the id numbering and bandData placement in the array. This wan't a necesity for the functionality of the website, but I deemed it as such to satisfy my need for order and the attention to detail that it enlists.
+
+2.4
 
 
 ----------********
