@@ -17,31 +17,20 @@ This was incredibly useful as it gave me a full understanding of each user exper
 ### 1.1 HTML and CSS Code Validation
 
 I used the [W3C Validator website to validate all my HTML](https://validator.w3.org/) and [W3C Validator](https://jigsaw.w3.org/css-validator/) CSS files, as shown below with the corresponding screenshots, as recommended by the Code Institutes' course material:
-| Page | URL | Score| Notes |
+| Page | URL | Screenshot| Notes |
 |----------|----------|----------|----------|
-| Home    | [W3C HTML](https://validator.w3.org/)   | 100%   | Pass: No Errors   |
-| Battle   | [W3C HTML](https://validator.w3.org/)   | 100%   | Pass: No Errors   |
-| style.css   | [W3C CSS](https://jigsaw.w3.org/css-validator/)   | 100%   | Pass: No Errors   |
-
-#### 1.1.1 Home Page
-
-![W3C Home page html validation](assets/imgs/documentation/index-html-validation.png)
-
-#### 1.1.2
-
-![W3C Battle page html validation](assets/imgs/documentation/play-html-validation.png)
-
-#### 1.1.3
-
-![W3C css validation](assets/imgs/documentation/css-validation.png)
+| Home    | [W3C HTML](https://validator.w3.org/)   | ![W3C Home page html validation](assets/imgs/documentation/index-html-validation.png)  | Pass: No Errors   |
+| Battle   | [W3C HTML](https://validator.w3.org/)   | ![W3C Battle page html validation](assets/imgs/documentation/play-html-validation.png)   | Pass: No Errors   |
+| style.css   | [W3C CSS](https://jigsaw.w3.org/css-validator/)   | ![W3C css validation](assets/imgs/documentation/css-validation.png)   | Pass: No Errors   |
 
 ### 1.2 Javascript Validation
 
 For my Javascript I used the [JShint Validator](https://jshint.com/) to validate my js files, as shown below with the corresponding screenshots, as recommended by the Code Institutes' course material:
-| Page | URL | Score| Notes |
+| Page | URL | Screenshot| Notes |
 |----------|----------|----------|----------|
-| script.js   | [JShint](https://jshint.com/)   | 100%   | Pass: No Errors   |
- 
+| script.js   | [JShint](https://jshint.com/)   | ![JSHint validation](assets/imgs/documentation/JSHint.png)   | Pass: No Errors   |
+
+Please not the comment to change the version of JSHint was used at the top: ![JSHint version](assets/imgs/documentation/JSHint-version-updater.png)
 
 ### 2. Lighthouse
 
