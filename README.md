@@ -93,21 +93,21 @@ For ease and simplicity I chose Geist Mono with a monospaced appearance, through
 
 #### 7.1.7 The Battle and How Buttons
 
-7.2 The Battle Page 
+### 7.2 The Battle Page 
 
-7.2.1 Navbar
+#### 7.2.1 Navbar
 
-7.2.2 Heading
+#### 7.2.2 Heading
 
-7.2.3 The Battle Cards
+#### 7.2.3 The Battle Cards
 
-7.2.4 The Video Pop-Up
+#### 7.2.4 The Video Pop-Up
 
-7.2.3 The Voting Form
+#### 7.2.3 The Voting Form
 
-7.3 The Thank You Page
+#### 7.3 The Thank You Page
 
-7.4 The 404 Page
+#### 7.4 The 404 Page
 
 ## 8. Testing and Debugging
 
@@ -115,7 +115,42 @@ Please refer to the [TESTING.md](TESTING.md) and Debugging *markdown* file.
 
 ## 9. Deployment
  
- Deployment was done early following on from lessons and guidance in a Code Institute Software Development course. At the time of writing there had been **146** deployments.
+ Deployment was done early following on from lessons and guidance in a Code Institute Software Development course in order to see what the website looks like as I coded along. At the time of writing there had been **156** deployments.
+
+ The site was deployed to GitHub Pages. The steps to deploy are as follows:
+
+1. In the GitHub repository, navigate to the Settings tab
+2. From the source section drop-down menu, select the Main Branch, then click "Save"
+3. The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found [here](https://github.com/AxdeKlerk/BotB-25/settings/pages)
+
+### 9.1 Local Deployment
+This project can be cloned or forked in order to make a local copy on your own system.
+
+#### 9.1.1 Cloning
+You can clone the repository by following these steps:
+
+1. Go to the GitHub [repository](https://github.com/AxdeKlerk/BotB-25)
+2. Locate the Code button above the list of files and click it
+3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash or Terminal
+5. Change the current working directory to the one where you want the cloned directory
+6. In your IDE Terminal, type the following command to clone my repository:
+git clone https://github.com/AxdeKlerk/BotB-25.git
+7. Press Enter to create your local clone.
+
+Alternatively, if using VS Code, you can click below to create your own workspace using this repository.
+
+Open in VS Code
+
+Please note that in order to directly open the project in Gitpod, you need to have the browser extension installed. A tutorial on how to do that can be found here.
+
+#### 9.1.2 Forking
+By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository. You can fork this repository by using the following steps:
+
+Log in to GitHub and locate the GitHub Repository
+At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
 ## 10. Future Features
 
