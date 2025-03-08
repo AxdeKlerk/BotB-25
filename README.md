@@ -137,6 +137,8 @@ The navbar found on the battle page follows the design of the one found on the h
 
 ![battle page heading](assets/imgs/documentation/battle-heading.png)
 
+Chosen as a play on the phrase "On your marks, get set and go!"
+
 #### 7.2.3 Go, Launch and Vote buttons
 
 ![unseleect go button](assets/imgs/documentation/go-btn.png) ![selected go button](assets/imgs/documentation/got-btn-clicked.png)
@@ -147,29 +149,56 @@ The navbar found on the battle page follows the design of the one found on the h
 
 ![unselectable vote button](assets/imgs/documentation/vote-btn.png) ![vote button for selection](assets/imgs/documentation/vote-btn-2.png)
 
+Once navigated to the battle page, the user is presented with three different types of buttons shown below. The first is the go button that is ready to be clicked, its functionality is to populate the four battle cards with the band details found in the bandData ‘array’ after four bands have been selected at random.
+
+It also populated the voting form with the band names (discussed later), enables the launch button and vote button. It also appends the band’s corresponding video, as an iframe behind the launch buttons.
+
+Before the go button is clicked the launch buttons are disabled with a simple opacity style of 0.5. The vote button is also disabled but greyed out with red text.
+
+Once the go button is clicked it is disabled to match the style of the disabled vote button to create a sense of unity and cohesion with the site.
+
 #### 7.2.3 The Battle Cards
 
 ![unpopulated battle card](assets/imgs/documentation/battle-card-1.png) ![populated battle card](assets/imgs/documentation/battle-card-2.png)
 
+The battle cards simply list the information of the bands name, song title and band’s origin below a picture of a rock fan/metal head expressing ‘extreme’ joy at a gig, when the user lands on the battle page. The band’s information is populated after the go button is clicked, as shown above.
+
 #### 7.2.4 The Video Pop-Up
 
 ![video pop-up](assets/imgs/documentation/pop-up-video.png)
+When the launch button is clicked a video modal pop-up appears, with an aspect ratio of 9:6, with the familiar *Youtube* play button in the middle. The band’s name and video title are also shown along with additional functionality embedded from the band’s *Youtube* channel to allow the user to open the video to full screen, with a mute button, volume control, pause button and scroll bar at the bottom to navigate through the song.
 
 #### 7.2.3 The Voting Form
 
 ![unpopulated voting form](assets/imgs/documentation/voting-form-blank.png)
 
+The voting forms shown above detail the visuals of the form when the user first lands on the battle page as disabled with an opacity of 0.5 to match the rest of the disabled button before the go button is clicked. Radio buttons were chosen to only allow one band to be picked for voting purposes.
+
 ![populated voting form](assets/imgs/documentation/voting-form-populated.png)
 
+The second image shows the form enabled once the go button has been clicked, populated with the bands names that correspond to the battle cards, and in the same order. The vote button remains disabled until one to the bands have been chosen. The user may change their selection before pressing the vote button.
+
 ![selected voting form](assets/imgs/documentation/voting-form-selected.png)
+
+The third image shows a band selected with the vote button enabled. Once the vote button is clicked it directs the user to the thank you message.
+
+The idea not to change the colour of the selected radio button to red was to make it clear which band has been selected.
 
 #### 7.3 The Thank You Page
 
 ![thank you page](assets/imgs/documentation/thank-you-page.png)
 
+The thank you page shows a grey image of the culturally famous ‘horns’ with a heading that indicates that the user is still in the website, designed in *Adobe Express*. The thank you message remains in the same style of the website with the same red and typographic style.
+
+The message below states: “Now go and do something useful and support live music” follows suit, but in light grey and smaller. Not only is it added in keeping with the general tone of the website, but it also serves as a reminder that supporting live music is crucial to the survival of emerging bands, artists and musicians.
+
+Two buttons have also been included for easy navigation back to the battle page as well as to the home page. The home button has been included to discourage the user from navigating away from the website by having to close the window, if designed to be opened in a new window.
+
 #### 7.4 The 404 Page
 
 ![404 page](assets/imgs/documentation/404-page.png)
+
+The 404 page follows the same design as the thank you page. Again, humour has been added to suggest that there has been a user error and that the solution is to click the home button to navigate to the landing page.
 
 ## 8. Testing and Debugging
 
@@ -237,6 +266,7 @@ The following tools and technologies were used:
 - *Google Fonts* - for typology
 - *Google Images* - for the how modal
 - *Coolors.co* - for the colour picker
+- *Adobe Express* - used for the images in both the thank you and 404 pages
 - *W3schools* - a constant source of reference for all html, CSS and BootStrap explanations
 - *BootStrap Docs* - for reference to all BootStrap syntax
 - *Pexels* - for the hero image
