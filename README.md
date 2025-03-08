@@ -75,37 +75,53 @@ For ease and simplicity I chose Geist Mono with a monospaced appearance, through
 
 ![home page](assets/imgs/documentation/home-page.png)
 
-#### 7.1.1 The Navbar
+The design of the landing/home page has been constructed in the simplest style that introduces a little exaggerated humour in the about section with a culturally conscious graphic and appeal. By this I mean that when a fellow rock fan or metal head lands on the home page it is obvious that this website has been designed with them in mind. This has been achieved with the colour palette and the two images that signify our culture. The first being the hero image.
+
+![nav bar expanded](assets/imgs/documentation/nav-bar.png)
+
+#### 7.1.1 The Hero Image
+
+![hero image](assets/imgs/documentation/hero-image.png)
+
+The hero image has been chosen as it clearly indicates fans enjoying themselves at a concert, with horns raised and facial expressions that conjure up emotions experienced when watching your favourite band(s), which sets the tone and intended expectations of the website.
+
+The choice of an oval image gives the picture a ‘fish-lensed-view’ as if you are peering through the lens of the camera. The padding in red gives the image definition in the chosen colour scheme.
+
+#### 7.1.2 Title
+
+![home page title](assets/imgs/documentation/title.png)
+
+The title is simple and gives the user a clear instruction to what the site is about. The battle of the band concept is very well known in our culture so did not need much explanation. However, the about section provides more clarity for those not ‘in-the-know’.
+
+#### 7.1.3 The Navbar
 
 The navbar is a simple design that includes links to the battle page and the how to play modal. I decided to use an expandable hamburger style navbar without the links displayed, to keep the look and feel of the website simple.
 
 Although not shown, the navbar items are highlighted in red when hovered over.
 
-![nav bar expanded](assets/imgs/documentation/nav-bar.png)
-
-#### 7.1.2 The Hero Image
-
-![hero image](assets/imgs/documentation/hero-image.png)
-
-#### 7.1.3 Title
-
-![home page title](assets/imgs/documentation/title.png)
-
 #### 7.1.4 The Battle and How Buttons
 
 ![battle and how buttons](assets/imgs/documentation/buttons.png)
+
+The navigation buttons for direction to the battle page and the how modal remain in the colour scheme and feel of the website, with curved corners to remove the ‘clunky’ feel of square corners and also mirrors the rounded hero image.
+
+A 'Battle!' button and a 'How?' button have been included at the bottom of the about section as it was more pleasing on the eye, than when not included. It also provides a focus and points the user to either start a battle or learn how to play by directing the user to the respective buttons, without having to scroll up to find the ones located above.
 
 #### 7.1.5 The How Modal
 
 ![alt text](assets/imgs/documentation/how-modal.png)
 
+The how modal deviates from the look of the home page slightly with a few icons (copied from *Google Images*). The tone of the instructions is light-hearted and mirrors the tone in the about section.
+
+It also includes a direct link to the battle page to make the user experience uncomplicated had only the close button been inserted, leaving the user to navigate to one of the battle buttons on the landing page.
+
 #### 7.1.6 The About Section
 
 ![about image](assets/imgs/documentation/about-image.png)
 
-#### 7.1.7 The Battle and How Buttons
+The about image was chosen for its colour scheme reflecting the same colour scheme as the website. It also shows a neon-sign of the traditional rock and metal horns that serves as a solute to the music and good times. The idea to keep it square was to differentiate the two sections and serve as a place marker for a new section.
 
-A 'Battle!' button and a 'How?' button have been included at the bottom of the about section as it was more pleasing on the eye, than when not included. It also provides a focus and points the user to either start a battle or learn how to play by directing the user to the respective buttons, without having to scroll up to find the ones located above.
+The text in the about section expands on what is already in the how modal, but was included to keep things fun and engaging.
 
 ### 7.2 The Battle Page 
 
@@ -219,6 +235,7 @@ The following tools and technologies were used:
 - [JavaScript](https://simple.wikipedia.org/wiki/JavaScript) - used for all interactivity within the website
 - *Google* - my starting point for understanding and searching for answers to my questions before other programmes were used
 - *Google Fonts* - for typology
+- *Google Images* - for the how modal
 - *Coolors.co* - for the colour picker
 - *W3schools* - a constant source of reference for all html, CSS and BootStrap explanations
 - *BootStrap Docs* - for reference to all BootStrap syntax
