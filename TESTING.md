@@ -103,3 +103,5 @@ However, after changing all the file names to 'images' I tried to change the dir
 ![error message](assets/imgs/documentation/error-image-folder.png)
 
 Therefore, I could not change the directory name, and it has had to remain as was.
+
+![red horns](assets/imgs/red-horns.png)

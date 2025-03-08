@@ -296,5 +296,5 @@ My team mates on my course - Steve Powell, Robert Lewis and Jordan Acomba who pr
 
 Barry (my dog) for reminding me that you can't be susuccessful  at work without play times.
 
-
-          
+![red horns](assets/imgs/red-horns.png)
+      
