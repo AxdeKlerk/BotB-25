@@ -298,3 +298,6 @@ Barry (my dog) for reminding me that you can't be susuccessful  at work without 
 
 ![red horns](assets/imgs/red-horns.png)
       
+---
+
+_Last updated for portfolio showcase: September 2025_
