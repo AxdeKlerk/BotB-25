@@ -1,3 +1,15 @@
+![Merit Badge](https://img.shields.io/badge/Project%20Grade-Merit-gold?style=for-the-badge) ![HTML5](https://img.shields.io/badge/Frontend-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/Frontend-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/Frontend-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+## 🎉 Project Outcome
+
+This project (BotB-25) was officially assessed and achieved a **Merit**.  
+
+It showcases strong front-end development skills using **HTML**, **CSS**, and **JavaScript** to deliver an interactive, entertaining, and engaging user experience.  
+
+The voting system and responsive design highlight the balance between creativity and usability.  
+
+**Next step:** apply these front-end lessons to future projects while building deeper integration with back-end technologies.
+
 # Battle of Emerging Rock Bands 2025 (UK)
 
 ![responsive views of home page on all devices](assets/imgs/documentation/responsive-views.png)
